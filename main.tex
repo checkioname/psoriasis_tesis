@@ -1,0 +1,96 @@
+% \documentclass[12pt,a4paper]{article}
+% \usepackage[top=3cm,bottom=2cm,left=3cm,right=2cm]{geometry}
+
+\documentclass[
+	% -- opções da classe memoir --
+	article,			% indica que é um artigo acadêmico
+	11pt,				% tamanho da fonte
+	oneside,			% para impressão apenas no recto. Oposto a twoside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE % títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	sumario=tradicional
+	]{abntex2}
+
+
+\usepackage{lmodern}			  % Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc} % Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl}  			% Lista de simbolos
+\usepackage{color}	  			% Controle das cores
+\usepackage{graphicx}	  		% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+
+% \usepackage[brazil]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage[alf]{abntex2cite}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{subcaption}
+
+
+% ----------- CONFIGURACOES E FORMATACAO ---------- %
+
+\selectlanguage{brazil}
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+
+
+% ---------- INICIO DO TEXTO --------------- %
+\begin{document}
+
+%titulo
+\input{tesis/cover}
+
+
+%tese
+\input{tesis/abstract}
+% \newpage
+
+% computa o indice
+\makeindex
+
+% SUMÁRIO
+% \pdfbookmark[0]{\contentsname}{toc}
+%   \tableofcontents*
+% \cleardoublepage
+
+% Lista de figuras
+% \thispagestyle{empty}
+%   \listoffigures
+% \newpage
+
+\pagenumbering{arabic}
+  \input{tesis/introduction}
+  \input{tesis/referencialteorico}
+  \input{tesis/metodologia}
+  \input{tesis/cronogramasec}
+  \input{tesis/references}
+\end{document}

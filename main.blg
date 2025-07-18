@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: Library.bib
+You're missing a field name---line 11 of file Library.bib
+ : 
+ : %   author={Pattanaik, Priyadarshini Adyasha and Mittal, Mohit and Khan, Mohammad Zubair},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 30 of file Library.bib
+ : @article{9097238
+ :                 ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 219 of file Library.bib
+ :   
+ :   % howpublished = {\url{https://phoseon.com/pt/life-sciences/life-sciences-applications/imaging/fluorescence-microscopy-led/}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 244 of file Library.bib
+ :   
+ :   % note = {Organism Mus musculus}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in 9097238
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+`title' is a missing field, not a string, for entry 9097238
+while executing---line 2146 of file abntex2-alf.bst
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 22 entries,
+            6714 wiz_defined-function locations,
+            1352 strings with 14185 characters,
+and the built_in function-call counts, 28088 in all, are:
+= -- 2992
+> -- 696
+< -- 520
++ -- 790
+- -- 205
+* -- 1843
+:= -- 3526
+add.period$ -- 87
+call.type$ -- 22
+change.case$ -- 240
+chr.to.int$ -- 60
+cite$ -- 22
+duplicate$ -- 2345
+empty$ -- 1303
+format.name$ -- 1006
+if$ -- 6032
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 393
+newline$ -- 128
+num.names$ -- 100
+pop$ -- 508
+preamble$ -- 1
+purify$ -- 92
+quote$ -- 0
+skip$ -- 2492
+stack$ -- 1
+substring$ -- 1146
+swap$ -- 979
+text.length$ -- 41
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 1
+while$ -- 149
+width$ -- 0
+write$ -- 359
+(There were 5 error messages)
