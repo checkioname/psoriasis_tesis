@@ -36,6 +36,7 @@
 \usepackage{array}
 \usepackage{amsmath}
 \usepackage{subcaption}
+\usepackage{fancyhdr}
 
 
 % ----------- CONFIGURACOES E FORMATACAO ---------- %
@@ -61,10 +62,15 @@
 % Retira espaço extra obsoleto entre as frases.
 \frenchspacing 
 
-
-
 % ---------- INICIO DO TEXTO --------------- %
 \begin{document}
+
+% configuração do cabeçalho e rodapé
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small{\textit{XXI jornada de Iniciação Científica}}}
+\fancyfoot[C]{\thepage}
+
 
 %titulo
 \input{tesis/cover}
@@ -91,6 +97,8 @@
   \input{tesis/introduction}
   \input{tesis/referencialteorico}
   \input{tesis/metodologia}
-  \input{tesis/cronogramasec}
+  % \input{tesis/cronogramasec}
+  \input{tesis/resultados}
+  \input{tesis/conclusao}
   \input{tesis/references}
 \end{document}

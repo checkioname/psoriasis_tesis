@@ -5,27 +5,30 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[]{9097238}
-\abntrefinfo{nada}{NADA}{a}
-{NISWAR, Muhammad and Arisandy Safruddin, Reza and Bustamin, Anugrayani and Aswad, Iqra.}
-
 \bibitem[Archive 2024]{cancerimaging}
 \abntrefinfo{Archive}{ARCHIVE}{2024}
 {ARCHIVE the C.~I. \emph{the Cancer Imaging Archive}. 2024.
 Dispon{\'\i}vel em: \url{https://www.cancerimagingarchive.net/}.}
+
+\bibitem[Arora et al. 2021]{Arora2021}
+\abntrefinfo{Arora et al.}{ARORA et al.}{2021}
+{ARORA, R. et al. Automated skin lesion segmentation using attention-based deep convolutional neural network.
+\emph{Biomedical Signal Processing and Control}, Elsevier BV, v.~65, p. 102358, mar. 2021.
+ISSN 1746-8094.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.bspc.2020.102358}.}
+
+\bibitem[Barroso et al. 2021]{Barroso2021}
+\abntrefinfo{Barroso et al.}{BARROSO et al.}{2021}
+{BARROSO, W. K.~S. et al. Diretrizes brasileiras de hipertensão arterial – 2020.
+\emph{Arquivos Brasileiros de Cardiologia}, Sociedade Brasileira de Cardiologia, v.~116, n.~3, p. 516–658, mar. 2021.
+ISSN 1678-4170.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.36660/abc.20201238}.}
 
 \bibitem[Brinker et al. 2019]{BRINKER201911}
 \abntrefinfo{Brinker et al.}{BRINKER et al.}{2019}
 {BRINKER, T.~J. et al. Deep neural networks are superior to dermatologists in melanoma image classification.
 \emph{European Journal of Cancer}, v.~119, p. 11--17, 2019.
 ISSN 0959-8049.}
-
-\bibitem[Das et al. 2020]{DAS2020119556}
-\abntrefinfo{Das et al.}{DAS et al.}{2020}
-{DAS, S.~S. et al. Molecular insights and novel approaches for targeting tumor metastasis.
-\emph{International Journal of Pharmaceutics}, v.~585, p. 119556, 2020.
-ISSN 0378-5173.
-Dispon{\'\i}vel em: \url{https://www.sciencedirect.com/science/article/pii/S0378517320305408}.}
 
 \bibitem[Dash et al. 2020]{DASH2020106240}
 \abntrefinfo{Dash et al.}{DASH et al.}{2020}
@@ -41,36 +44,29 @@ ISSN 0895-6111.
 Computer-aided Diagnosis (CAD) and Image-guided Decision Support.
 Dispon{\'\i}vel em: \url{https://www.sciencedirect.com/science/article/pii/S0895611107000262}.}
 
-\bibitem[Floor et al. 2012]{FLOOR2012509}
-\abntrefinfo{Floor et al.}{FLOOR et al.}{2012}
-{FLOOR, S.~L. et al. Hallmarks of cancer: of all cancer cells, all the time?
-\emph{Trends in Molecular Medicine}, v.~18, n.~9, p. 509--515, 2012.
-ISSN 1471-4914.}
-
 \bibitem[Gonzalez e Woods 2008]{gonzalez2008digital}
 \abntrefinfo{Gonzalez e Woods}{GONZALEZ; WOODS}{2008}
 {GONZALEZ, R.; WOODS, R. \emph{Digital Image Processing}. [S.l.]: Prentice Hall, 2008.
 ISBN 9780131687288.}
 
+\bibitem[Griffiths e Barker 2007]{Griffiths2007}
+\abntrefinfo{Griffiths e Barker}{GRIFFITHS; BARKER}{2007}
+{GRIFFITHS, C.~E.; BARKER, J.~N. Pathogenesis and clinical features of psoriasis.
+\emph{The Lancet}, Elsevier BV, v.~370, n.~9583, p. 263–271, jul. 2007.
+ISSN 0140-6736.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/S0140-6736(07)61128-3}.}
+
+\bibitem[Hameed et al. 2019]{Hameed2019}
+\abntrefinfo{Hameed et al.}{HAMEED et al.}{2019}
+{HAMEED, N. et al. An intelligent computer-aided scheme for classifying multiple skin lesions.
+\emph{Computers}, MDPI AG, v.~8, n.~3, p.~62, ago. 2019.
+ISSN 2073-431X.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.3390/computers8030062}.}
+
 \bibitem[Haykin 2009]{haykin2009neural}
 \abntrefinfo{Haykin}{HAYKIN}{2009}
 {HAYKIN, S. \emph{Neural Networks and Learning Machines}. [S.l.]: Pearson, 2009.  (Pearson International Edition).
 ISBN 9780131293762.}
-
-\bibitem[King et al. 2019]{eletron-micro}
-\abntrefinfo{King et al.}{KING et al.}{2019}
-{KING, G. et al. \emph{Meiotic cellular rejuvenation is coupled to nuclear remodeling in budding yeast}. University of Dundee, 2019.
-Dispon{\'\i}vel em: \url{https://idr.openmicroscopy.org/webclient/?show=project-904}.}
-
-\bibitem[LeCun et al. 1989]{6795724}
-\abntrefinfo{LeCun et al.}{LECUN et al.}{1989}
-{LECUN, Y. et al. Backpropagation applied to handwritten zip code recognition.
-\emph{Neural Computation}, v.~1, n.~4, p. 541--551, 1989.}
-
-\bibitem[Li et al. 2020]{9152949}
-\abntrefinfo{Li et al.}{LI et al.}{2020}
-{LI, M. et al. Computer-aided diagnosis and staging of pancreatic cancer based on ct images.
-\emph{IEEE Access}, v.~8, p. 141705--141718, 2020.}
 
 \bibitem[Martiniano et al. 2016]{imagemperceptron}
 \abntrefinfo{Martiniano et al.}{MARTINIANO et al.}{2016}
@@ -82,10 +78,12 @@ Dispon{\'\i}vel em: \url{https://idr.openmicroscopy.org/webclient/?show=project-
 {MICHEL, M. \emph{Metodologia E Pesquisa Cient{\'\i}fica Em Ci{\^e}ncias Soci}. ATLAS EDITORA, 2009.
 ISBN 9788522455195. Dispon{\'\i}vel em: \url{https://books.google.com.br/books?id=CGajPwAACAAJ}.}
 
-\bibitem[Miron 2020]{fluo-micro}
-\abntrefinfo{Miron}{MIRON}{2020}
-{MIRON, E. \emph{Chromatin arranges in chains of mesoscale domains with nanoscale functional topography independent of cohesin}. University of Dundee, 2020.
-Dispon{\'\i}vel em: \url{https://idr.openmicroscopy.org/webclient/?show=project-1158}.}
+\bibitem[Miller et al. 2013]{Miller2013}
+\abntrefinfo{Miller et al.}{MILLER et al.}{2013}
+{MILLER, I.~M. et al. Meta-analysis of psoriasis, cardiovascular disease, and associated risk factors.
+\emph{Journal of the American Academy of Dermatology}, Elsevier BV, v.~69, n.~6, p. 1014–1024, dez. 2013.
+ISSN 0190-9622.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jaad.2013.06.053}.}
 
 \bibitem[Niswar et al. 2024]{Niswar2024}
 \abntrefinfo{Niswar et al.}{NISWAR et al.}{2024}
@@ -94,35 +92,9 @@ Dispon{\'\i}vel em: \url{https://idr.openmicroscopy.org/webclient/?show=project-
 ISSN 2081-8491.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.24425/ijet.2024.149562}.}
 
-\bibitem[Rumelhart, Hinton e Williams 1986]{Rumelhart1986-zt}
-\abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
-{RUMELHART, D.~E.; HINTON, G.~E.; WILLIAMS, R.~J. Learning representations by back-propagating errors.
-\emph{Nature}, v.~323, n.~6088, p. 533--536, out. 1986.}
-
 \bibitem[Russell e Norvig 2009]{10.5555/1671238}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2009}
 {RUSSELL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 3rd. ed. USA: Prentice Hall Press, 2009.
 ISBN 0136042597.}
-
-\bibitem[Sano, Kobori e Muto 1992]{Sano1992}
-\abntrefinfo{Sano, Kobori e Muto}{SANO; KOBORI; MUTO}{1992}
-{SANO, T.; KOBORI, O.; MUTO, T. Lymph node metastasis from early gastric cancer: endoscopic resection of tumour.
-\emph{Journal of British Surgery}, Oxford University Press (OUP), v.~79, n.~3, p. 241–244, mar. 1992.
-ISSN 1365-2168.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1002/bjs.1800790319}.}
-
-\bibitem[Schaadt et al. 2020]{Schaadt2020}
-\abntrefinfo{Schaadt et al.}{SCHAADT et al.}{2020}
-{SCHAADT, N.~S. et al. Graph-based description of tertiary lymphoid organs at single-cell level.
-\emph{PLOS Computational Biology}, Public Library of Science (PLoS), v.~16, n.~2, p. e1007385, fev. 2020.
-ISSN 1553-7358.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1371/journal.pcbi.1007385}.}
-
-\bibitem[Tham e Abastado 2011]{THAM201181}
-\abntrefinfo{Tham e Abastado}{THAM; ABASTADO}{2011}
-{THAM, M.; ABASTADO, J.-P. Escape of tumor immune surveillance and metastasis.
-\emph{Drug Discovery Today: Disease Models}, v.~8, n.~2, p. 81--86, 2011.
-ISSN 1740-6757.
-Cell migration and metastasis formation.}
 
 \end{thebibliography}

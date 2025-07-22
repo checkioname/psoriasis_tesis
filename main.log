@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  23 MAY 2025 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  20 JUL 2025 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,6 +811,30 @@ Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count371
 )
 
+Class memoir Warning: The fancyhdr package is not recommended with memoir.
+(memoir)              We have our own well integrated interface to handle
+(memoir)              headers and footers. See the manual section 7.3
+(memoir)              onwards for details. on input line 40.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip267
+\f@nch@offset@elh=\skip268
+\f@nch@offset@erh=\skip269
+\f@nch@offset@olh=\skip270
+\f@nch@offset@orh=\skip271
+\f@nch@offset@elf=\skip272
+\f@nch@offset@erf=\skip273
+\f@nch@offset@olf=\skip274
+\f@nch@offset@orf=\skip275
+\f@nch@height=\skip276
+\f@nch@footalignment=\skip277
+\f@nch@widthL=\skip278
+\f@nch@widthC=\skip279
+\f@nch@widthR=\skip280
+\@temptokenb=\toks39
+)
+
 ******************************************************
 Stock height and width: 845.04684pt by 597.50787pt
 Top and edge trims: 0pt and 0pt
@@ -833,27 +857,27 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+Package hyperref Info: Link coloring OFF on input line 66.
 \myptabbox=\box64
-\myptabboxwidth=\skip267
+\myptabboxwidth=\skip281
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count372
@@ -861,32 +885,32 @@ Package hyperref Info: Link coloring OFF on input line 67.
 \scratchbox=\box65
 \nofMPsegments=\count373
 \nofMParguments=\count374
-\everyMPshowfont=\toks39
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count375
 \MPscratchDim=\dimen277
 \MPnumerator=\count376
 \makeMPintoPDFobject=\count377
-\everyMPtoPDFconversion=\toks40
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 67.
-Package microtype Info: Applying patch `item' on input line 67.
-Package microtype Info: Applying patch `toc' on input line 67.
-Package microtype Info: Applying patch `eqnum' on input line 67.
-Package microtype Info: Applying patch `footnote' on input line 67.
-Package microtype Info: Applying patch `verbatim' on input line 67.
-LaTeX Info: Redefining \microtypesetup on input line 67.
+LaTeX Info: Redefining \microtypecontext on input line 66.
+Package microtype Info: Applying patch `item' on input line 66.
+Package microtype Info: Applying patch `toc' on input line 66.
+Package microtype Info: Applying patch `eqnum' on input line 66.
+Package microtype Info: Applying patch `footnote' on input line 66.
+Package microtype Info: Applying patch `verbatim' on input line 66.
+LaTeX Info: Redefining \microtypesetup on input line 66.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 67.
+LaTeX Info: Redefining \showhyphens on input line 66.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -895,7 +919,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./tesis/cover.tex
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 71.
+
+(./tesis/cover.tex
 
 ./tesis/cover.tex:17: LaTeX Error: Can be used only in preamble.
 
@@ -1009,13 +1038,13 @@ Use \textit, or \itshape{...}, or the oldfontcommands option
 
 )
 
-./main.tex:78: LaTeX Error: Can be used only in preamble.
+./main.tex:84: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \makeindex
+l.84 \makeindex
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1032,186 +1061,84 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
+LaTeX Warning: Citation `DAS2020119556' on page 1 undefined on input line 4.
+
+
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 N
-      o contexto de diagnóstico clínico, a análise de exames de imagem da... [1]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 16.
+l.6 
+     [1]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (./tesis/referencialteorico.tex
 
 [2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/Figura-1-neuronio-artificial.png, id=49, 752.8125pt x 385.44pt>
+<images/Figura-1-neuronio-artificial.png, id=53, 752.8125pt x 385.44pt>
 File: images/Figura-1-neuronio-artificial.png Graphic file (type png)
 <use images/Figura-1-neuronio-artificial.png>
-Package pdftex.def Info: images/Figura-1-neuronio-artificial.png  used on input line 13.
+Package pdftex.def Info: images/Figura-1-neuronio-artificial.png  used on input line 16.
 (pdftex.def)             Requested size: 301.11966pt x 154.17326pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 19.
+(Font)              <10.95> on input line 21.
 
-
-[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-
-./tesis/referencialteorico.tex:22: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22   \(
-         z = \sum_{i=1}^{n} w_i x_i\) \;.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./tesis/referencialteorico.tex:22: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22   \(z = \sum_{i=1}^{n} w_i x_i\)
-                                      \;.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/mlp.jpg, id=67, 452.4403pt x 190.46156pt>
-File: images/mlp.jpg Graphic file (type jpg)
-<use images/mlp.jpg>
-Package pdftex.def Info: images/mlp.jpg  used on input line 36.
-(pdftex.def)             Requested size: 339.3294pt x 142.8458pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+./tesis/referencialteorico.tex:21: Undefined control sequence.
+l.21 ...peso w, e um termo de viés \(b\) (\textot
+                                                  {bias}). O funcionamento d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
-[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./images/Figura-1-neuronio-artificial.png>]
-<images/redeconv.png, id=93, 1062.97125pt x 439.6425pt>
+[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./images/Figura-1-neuronio-artificial.png>]
+<images/redeconv.png, id=73, 1062.97125pt x 439.6425pt>
 File: images/redeconv.png Graphic file (type png)
 <use images/redeconv.png>
-Package pdftex.def Info: images/redeconv.png  used on input line 48.
+Package pdftex.def Info: images/redeconv.png  used on input line 31.
 (pdftex.def)             Requested size: 425.18097pt x 175.85388pt.
 
 
-[5 <./images/mlp.jpg> <./images/redeconv.png>]
-<images/fluo-micro.png, id=111, 1430.34375pt x 876.27374pt>
-File: images/fluo-micro.png Graphic file (type png)
-<use images/fluo-micro.png>
-Package pdftex.def Info: images/fluo-micro.png  used on input line 62.
-(pdftex.def)             Requested size: 257.45076pt x 157.72246pt.
+[4 <./images/redeconv.png>]
 
+[5]) (./tesis/metodologia.tex
 
-[6 <./images/fluo-micro.png>]
-<images/electron_micro.png, id=129, 1465.475pt x 876.27374pt>
-File: images/electron_micro.png Graphic file (type png)
-<use images/electron_micro.png>
-Package pdftex.def Info: images/electron_micro.png  used on input line 79.
-(pdftex.def)             Requested size: 234.48079pt x 140.20665pt.
+[6]) (./tesis/resultados.tex
 
-Overfull \hbox (21.48079pt too wide) in paragraph at lines 79--80
-[][] 
- []
-
-<images/lung06.png, id=134, 1465.475pt x 876.27374pt>
-File: images/lung06.png Graphic file (type png)
-<use images/lung06.png>
-Package pdftex.def Info: images/lung06.png  used on input line 85.
-(pdftex.def)             Requested size: 234.48079pt x 140.20665pt.
-
-Overfull \hbox (21.48079pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 78--89
-[][] [] 
- []
-
-
-
-[7 <./images/electron_micro.png> <./images/lung06.png>]) (./tesis/metodologia.tex
-
-[8]
-<images/pipeline2.png, id=179, 2911.87875pt x 158.5925pt>
-File: images/pipeline2.png Graphic file (type png)
-<use images/pipeline2.png>
-Package pdftex.def Info: images/pipeline2.png  used on input line 18.
-(pdftex.def)             Requested size: 436.76297pt x 23.78784pt.
-
-Overfull \hbox (10.76297pt too wide) in paragraph at lines 18--19
- [][] 
- []
-
-<images/datasetexample.jpg, id=183, 1130.2225pt x 877.2775pt>
-File: images/datasetexample.jpg Graphic file (type jpg)
-<use images/datasetexample.jpg>
-Package pdftex.def Info: images/datasetexample.jpg  used on input line 34.
-(pdftex.def)             Requested size: 127.8013pt x 99.19144pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[9 <./images/pipeline2.png>]
-
-LaTeX Warning: Command \' invalid in math mode on input line 55.
-
-
-
-[10 <./images/datasetexample.jpg>]
-
-LaTeX Warning: Command \~ invalid in math mode on input line 62.
-
-
-
-[11]) (./tesis/cronogramasec.tex (./tesis/tabelas/cronograma.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-
-Overfull \hbox (35.22481pt too wide) in paragraph at lines 9--31
- [][] 
- []
-
-)) (./tesis/references.tex (./main.bbl
+[7]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
 bibitemlist
 
 
-[12]
+[8]))
 
-[13]))
-
-[14] (./main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 21413 strings out of 473190
- 353385 string characters out of 5715800
- 883613 words of memory out of 5000000
- 44093 multiletter control sequences out of 15000+600000
- 628339 words of font info for 162 fonts, out of 8000000 for 9000
+ 21564 strings out of 473190
+ 355982 string characters out of 5715800
+ 876277 words of memory out of 5000000
+ 44291 multiletter control sequences out of 15000+600000
+ 621601 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,131p,1650b,691s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (15 pages, 3892453 bytes).
+ 110i,12n,131p,1858b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb>
+Output written on main.pdf (10 pages, 250279 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 39073 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 34883 words of extra memory for PDF output out of 35830 (max. 10000000)
 
