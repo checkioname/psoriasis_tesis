@@ -5,11 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Archive 2024]{cancerimaging}
-\abntrefinfo{Archive}{ARCHIVE}{2024}
-{ARCHIVE the C.~I. \emph{the Cancer Imaging Archive}. 2024.
-Dispon{\'\i}vel em: \url{https://www.cancerimagingarchive.net/}.}
-
 \bibitem[Arora et al. 2021]{Arora2021}
 \abntrefinfo{Arora et al.}{ARORA et al.}{2021}
 {ARORA, R. et al. Automated skin lesion segmentation using attention-based deep convolutional neural network.
@@ -44,6 +39,12 @@ ISSN 0895-6111.
 Computer-aided Diagnosis (CAD) and Image-guided Decision Support.
 Dispon{\'\i}vel em: \url{https://www.sciencedirect.com/science/article/pii/S0895611107000262}.}
 
+\bibitem[Dosovitskiy et al. 2020]{Dosovitskiy}
+\abntrefinfo{Dosovitskiy et al.}{DOSOVITSKIY et al.}{2020}
+{DOSOVITSKIY, A. et al. An image is worth 16x16 words: Transformers for image recognition at scale.
+arXiv, 2020.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/2010.11929}.}
+
 \bibitem[Gonzalez e Woods 2008]{gonzalez2008digital}
 \abntrefinfo{Gonzalez e Woods}{GONZALEZ; WOODS}{2008}
 {GONZALEZ, R.; WOODS, R. \emph{Digital Image Processing}. [S.l.]: Prentice Hall, 2008.
@@ -73,11 +74,6 @@ ISBN 9780131293762.}
 {MARTINIANO, A. et al. Utilizando uma rede neural artificial para aproximação da função de evolução do sistema de lorentz.
 \emph{Revista Produção e Desenvolvimento}, v.~2, p. 26--38, 04 2016.}
 
-\bibitem[Michel 2009]{michelmetodologia}
-\abntrefinfo{Michel}{MICHEL}{2009}
-{MICHEL, M. \emph{Metodologia E Pesquisa Cient{\'\i}fica Em Ci{\^e}ncias Soci}. ATLAS EDITORA, 2009.
-ISBN 9788522455195. Dispon{\'\i}vel em: \url{https://books.google.com.br/books?id=CGajPwAACAAJ}.}
-
 \bibitem[Miller et al. 2013]{Miller2013}
 \abntrefinfo{Miller et al.}{MILLER et al.}{2013}
 {MILLER, I.~M. et al. Meta-analysis of psoriasis, cardiovascular disease, and associated risk factors.
@@ -85,16 +81,15 @@ ISBN 9788522455195. Dispon{\'\i}vel em: \url{https://books.google.com.br/books?i
 ISSN 0190-9622.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jaad.2013.06.053}.}
 
-\bibitem[Niswar et al. 2024]{Niswar2024}
-\abntrefinfo{Niswar et al.}{NISWAR et al.}{2024}
-{NISWAR, M. et al. Performance evaluation of microservices communication with rest, graphql, and grpc.
-\emph{International Journal of Electronics and Telecommunications}, Polish Academy of Sciences Chancellery, p. 429–436, jun. 2024.
-ISSN 2081-8491.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.24425/ijet.2024.149562}.}
-
 \bibitem[Russell e Norvig 2009]{10.5555/1671238}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2009}
 {RUSSELL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 3rd. ed. USA: Prentice Hall Press, 2009.
 ISBN 0136042597.}
+
+\bibitem[Vaswani et al. 2017]{Vaswani}
+\abntrefinfo{Vaswani et al.}{VASWANI et al.}{2017}
+{VASWANI, A. et al. Attention is all you need.
+arXiv, 2017.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/1706.03762}.}
 
 \end{thebibliography}

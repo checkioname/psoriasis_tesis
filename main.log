@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  20 JUL 2025 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  24 JUL 2025 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,6 +549,17 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 \ABNTEXsignwidth=\skip199
 \ABNTEXsignthickness=\skip256
 \ABNTEXsignskip=\skip257
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count350
+\xs_countb=\count351
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks26
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -590,8 +601,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 116
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks26
-\inpenc@posthook=\toks27
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/nomencl/nomencl.sty
@@ -599,10 +610,10 @@ Package: nomencl 2021/11/10 v5.6 Nomenclature package
  (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count350
+\XKV@depth=\count352
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
@@ -649,18 +660,18 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \Gin@req@width=\dimen197
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
-\MT@toks=\toks30
+\MT@toks=\toks31
 \MT@tempbox=\box60
-\MT@count=\count351
+\MT@count=\count353
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks31
+\MT@prot@toks=\toks32
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen198
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count352
+\MT@listname@count=\count354
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
@@ -675,19 +686,18 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen199
 \WF@size=\dimen256
-\c@WF@wrappedlines=\count353
+\c@WF@wrappedlines=\count355
 \WF@box=\box61
-\WF@everypar=\toks32
+\WF@everypar=\toks33
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
  (/usr/local/texlive/2025/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip261
 \ABCIauxlen=\skip262
-\c@ABCIaux=\count354
-\c@ABCImax=\count355
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifpdf.sty
+\c@ABCIaux=\count356
+\c@ABCImax=\count357
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -697,7 +707,7 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip263
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks33
+\ABCItoken=\toks34
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -724,7 +734,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks34
+\@emptytoks=\toks35
 \ex@=\dimen257
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -732,14 +742,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count356
+\inf@bad=\count358
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count357
-\leftroot@=\count358
+\uproot@=\count359
+\leftroot@=\count360
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count359
-\DOTSCASE@=\count360
+\classnum@=\count361
+\DOTSCASE@=\count362
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -752,31 +762,31 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen259
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count361
+\macc@depth=\count363
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count362
+\c@MaxMatrixCols=\count364
 \dotsspace@=\muskip18
-\c@parentequation=\count363
-\dspbrk@lvl=\count364
-\tag@help=\toks35
-\row@=\count365
-\column@=\count366
-\maxfields@=\count367
-\andhelp@=\toks36
+\c@parentequation=\count365
+\dspbrk@lvl=\count366
+\tag@help=\toks36
+\row@=\count367
+\column@=\count368
+\maxfields@=\count369
+\andhelp@=\toks37
 \eqnshift@=\dimen260
 \alignsep@=\dimen261
 \tagshift@=\dimen262
 \tagwidth@=\dimen263
 \totwidth@=\dimen264
 \lineht@=\dimen265
-\@envbody=\toks37
+\@envbody=\toks38
 \multlinegap=\skip265
 \multlinetaggap=\skip266
-\mathdisplay@stack=\toks38
+\mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
@@ -797,8 +807,8 @@ Package caption Info: memoir document class detected.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption-memoir.sto
 File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to the memoir document class (AR)
 ))
-\c@caption@flags=\count368
-\c@continuedfloat=\count369
+\c@caption@flags=\count370
+\c@continuedfloat=\count371
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen274
 \caption@adjustwidth@linewidth=\dimen275
@@ -806,15 +816,15 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count370
+\c@subfigure=\count372
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count371
+\c@subtable=\count373
 )
 
 Class memoir Warning: The fancyhdr package is not recommended with memoir.
 (memoir)              We have our own well integrated interface to handle
 (memoir)              headers and footers. See the manual section 7.3
-(memoir)              onwards for details. on input line 40.
+(memoir)              onwards for details. on input line 41.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -832,7 +842,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip278
 \f@nch@widthC=\skip279
 \f@nch@widthR=\skip280
-\@temptokenb=\toks39
+\@temptokenb=\toks40
 )
 
 ******************************************************
@@ -854,63 +864,462 @@ Sidefoothsep and sidefootwidth: 7pt and 49pt
 Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
-(./main.aux)
+
+LaTeX Warning: Unused global option(s):
+    [acronyms].
+
+(./main.aux
+./main.aux:103: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.103 \AC@undonewlabel{acro:\acs {CNN}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:103: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.103 \AC@undonewlabel{acro:\acs {CNN}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Package acronym Info: Label `acro:CNN' newly defined as it shall be overridden
+although it is yet undefined on input line 103.
+
+./main.aux:103: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \AC@undonewlabel{acro:\acs {CNN}}
+                                       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main.aux:103: Extra \endcsname.
+<argument> ...\csname s@acro:\acs {CNN}\endcsname 
+                                                  \@nnil 
+l.103 \AC@undonewlabel{acro:\acs {CNN}}
+                                       
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:103: Undefined control sequence.
+\@nnil ->\@nil 
+               
+l.103 \AC@undonewlabel{acro:\acs {CNN}}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \afterassignment 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Missing } inserted.
+<inserted text> 
+                }
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.aux:104: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+./main.aux:104: Undefined control sequence.
+<recently read> \WSF:\endcsname{CNN} 
+                                     
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:104: Too many }'s.
+\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
+                                                  
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+./main.aux:107: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.107 \acronymused{\acs {CNN}}
+                              
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:107: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.107 \acronymused{\acs {CNN}}
+                              
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:107: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.107 \acronymused{\acs {CNN}}
+                              
+Things are pretty mixed up, but I think the worst is over.
+
+Package acronym Info: Label `acro:CNN' overridden on input line 107.
+./main.aux:107: Extra \endcsname.
+\acronymused ... \csname acused@#1@once\endcsname 
+                                                  \AC@used \ifAC@printonlyre...
+l.107 \acronymused{\acs {CNN}}
+                              
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:109: Undefined control sequence.
+l.109 \AC
+         @undonewlabel{acro:FMABC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:117: Undefined control sequence.
+l.117 \AC
+         @undonewlabel{acro:ETL}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:131: Undefined control sequence.
+l.131 \BKM
+          @entry{id=5,dest={73656374696F6E2E302E34},srcline={1}}{5C3337365C3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (21.70627pt too wide) in paragraph at lines 103--132
+[][][] \T1/lmr/m/n/10.95 37Me-to-do-lo-gi-a-sec-tion.0.3   [][][][]@once@<>@<>@  @un-do-ne-wla-be-la-cro:FMABC
+ []
+
+
+Overfull \hbox (1452.7211pt too wide) in paragraph at lines 103--132
+\T1/lmr/m/n/10.95 @un-do-ne-wla-be-la-cro:ETL              @en-tryid=5,dest=73656374696F6E2E302E34,srcline=15C3337365C3337375C303030525C303030655C303030735C303030755C3030306C5C303030745C303030615C303030645C3030306F5C303030735C3030305C3034305C303030655C3030305C3034305C303030445C303030695C303030735C303030635C303030755C303030735C303030735C3030305C3334335C3030306F
+ []
+
+
+./main.aux:132: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 ...}Resultados e Discussão}{9}{section.0.4}
+                                                  \protected@file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main.aux:132: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.132 ...}Resultados e Discussão}{9}{section.0.4}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:132: Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.132 ...}Resultados e Discussão}{9}{section.0.4}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 132.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 132.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 132.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 132.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 132.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 132.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 132.
+
+./main.aux:132: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.132 ... e Discussão}{9}{section.0.4}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+
+./main.aux:132: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 ... e Discussão}{9}{section.0.4}\protected@
+                                                  file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main.aux:133: Undefined control sequence.
+l.133 \BKM
+          @entry{id=6,dest={73656374696F6E2E302E35},srcline={1}}{5C3337365C3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:136: Undefined control sequence.
+l.136 \BKM
+          @entry{id=7,dest={636861707465722A2E35},srcline={3}}{5C3337365C333...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (595.63483pt too wide) in paragraph at lines 132--189
+[]\T1/lmr/m/n/10.95 @file@percent  @en-tryid=6,dest=73656374696F6E2E302E35,srcline=15C3337365C3337375C303030435C3030306F5C3030306E5C303030635C3030306C5C303030755C303030735C3030305C3334335C3030306F
+ []
+
+
+Overfull \hbox (582.18713pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 @en-tryid=7,dest=636861707465722A2E35,srcline=35C3337365C3337375C303030525C303030655C303030665C303030655C303030725C3030305C3335325C3030306E5C303030635C303030695C303030615C30303073
+ []
+
+
+./main.aux:189: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 ...umberline {5}Conclusão}{10}{section.0.5}
+                                                  \protected@file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main.aux:189: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.189 ...umberline {5}Conclusão}{10}{section.0.5}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:189: Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.189 ...umberline {5}Conclusão}{10}{section.0.5}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:189: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.189 ...5}Conclusão}{10}{section.0.5}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+
+./main.aux:189: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 ...5}Conclusão}{10}{section.0.5}\protected@
+                                                  file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main.aux:190: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 ... {chapter}{Refer\^encias}{10}{chapter*.5}
+                                                  \protected@file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main.aux:190: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.190 ... {chapter}{Refer\^encias}{10}{chapter*.5}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:190: Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.190 ... {chapter}{Refer\^encias}{10}{chapter*.5}
+                                                  \protected@file@percent }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:190: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.190 ...Refer\^encias}{10}{chapter*.5}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+
+./main.aux:190: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 ...Refer\^encias}{10}{chapter*.5}\protected@
+                                                  file@percent }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+./main.tex:78: Extra \endgroup.
+\document ...lax \@input {\jobname .aux}\endgroup 
+                                                  \if@filesw \immediate \ope...
+l.78 \begin{document}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-Package hyperref Info: Link coloring OFF on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+Package hyperref Info: Link coloring OFF on input line 78.
 \myptabbox=\box64
 \myptabboxwidth=\skip281
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count372
+\scratchcounter=\count374
 \scratchdimen=\dimen276
 \scratchbox=\box65
-\nofMPsegments=\count373
-\nofMParguments=\count374
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count375
+\nofMPsegments=\count375
+\nofMParguments=\count376
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count377
 \MPscratchDim=\dimen277
-\MPnumerator=\count376
-\makeMPintoPDFobject=\count377
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count378
+\makeMPintoPDFobject=\count379
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 66.
-Package microtype Info: Applying patch `item' on input line 66.
-Package microtype Info: Applying patch `toc' on input line 66.
-Package microtype Info: Applying patch `eqnum' on input line 66.
-Package microtype Info: Applying patch `footnote' on input line 66.
-Package microtype Info: Applying patch `verbatim' on input line 66.
-LaTeX Info: Redefining \microtypesetup on input line 66.
+LaTeX Info: Redefining \microtypecontext on input line 78.
+Package microtype Info: Applying patch `item' on input line 78.
+Package microtype Info: Applying patch `toc' on input line 78.
+Package microtype Info: Applying patch `eqnum' on input line 78.
+Package microtype Info: Applying patch `footnote' on input line 78.
+Package microtype Info: Applying patch `verbatim' on input line 78.
+LaTeX Info: Redefining \microtypesetup on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 66.
+LaTeX Info: Redefining \showhyphens on input line 78.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -922,7 +1331,7 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 71.
+(fancyhdr)                Please consider using the `twoside' option on input line 84.
 
 (./tesis/cover.tex
 
@@ -942,28 +1351,13 @@ or  <return>  to continue without it.
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 42.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 46.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 46.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 46.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 46.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+
+
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+
+]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 46.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 46.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 46.
 ) (./tesis/abstract.tex
 
 ./tesis/abstract.tex:7: Class memoir Error: Font command \bf is not supported.
@@ -973,7 +1367,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.7 {\bf
-         Resumo.} Câncer é a principal causa de mortes em todo o mundo. A ...
+         Resumo.} Lorem ipsum dolor sit amet, consectetur adipiscing elit. N...
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
 
@@ -1006,45 +1400,43 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.14 {\bf
-          Abstract.} Cancer is the leading cause of deaths worldwide. The di...
+          Abstract.} Lorem ipsum dolor sit amet, consectetur adipiscing elit...
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
 
 
-[1
+[2]
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-
-./tesis/abstract.tex:16: Class memoir Error: Font command \bf is not supported.
+./tesis/abstract.tex:15: Class memoir Error: Font command \bf is not supported.
 
 See the memoir class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 {\bf
+l.15 {\bf
           Keywords:} {\it CAD, Neural Networks, CAD Microscopy, CNN, CAD int...
 Use \textbf, or \bfseries{...}, or the oldfontcommands option
 
 
-./tesis/abstract.tex:16: Class memoir Error: Font command \it is not supported.
+./tesis/abstract.tex:15: Class memoir Error: Font command \it is not supported.
 
 See the memoir class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 {\bf Keywords:} {\it
+l.15 {\bf Keywords:} {\it
                           CAD, Neural Networks, CAD Microscopy, CNN, CAD int...
 Use \textit, or \itshape{...}, or the oldfontcommands option
 
 )
 
-./main.tex:84: LaTeX Error: Can be used only in preamble.
+./main.tex:97: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \makeindex
+l.97 \makeindex
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1059,10 +1451,88 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package acronym Info: Label `acro:CAD' newly defined as it shall be overridden
+although it is yet undefined on input line 2.
+Package acronym Info: Label `acro:IA' newly defined as it shall be overridden
+although it is yet undefined on input line 3.
 
+./tesis/introduction.tex:3: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.3 ...mento de imagens \cite{gonzalez2008digital}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...ária para lidar com eles \cite{Hameed2019}
+                                                  . Pessoas que vivem nas á...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...indo custos operacionais (\cite{Hameed2019}
+                                                  , \cite{DAS2020119556}, \c...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+pdfTeX warning (font expansion): font should be expanded before its first use
 
 LaTeX Warning: Citation `DAS2020119556' on page 1 undefined on input line 4.
 
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...19}, \cite{DAS2020119556}, \cite{Arora2021}
+                                                  . Uma doença dermatológi...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...erca de 90\% dos casos \cite{Griffiths2007}
+                                                  . Essa doença não aprese...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...insulina e a dislipidemia \cite{Miller2013}
+                                                   são a principal causa de...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/introduction.tex:4: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.4 ...volvimento como o Brasil \cite{Barroso2021}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Package acronym Info: Label `acro:PASI' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
 
 
 
@@ -1075,15 +1545,80 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (./tesis/referencialteorico.tex
+./tesis/referencialteorico.tex:9: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.9 ...ntrada com a saída \cite{haykin2009neural}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
 
-[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/Figura-1-neuronio-artificial.png, id=53, 752.8125pt x 385.44pt>
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 
+      [2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+./tesis/referencialteorico.tex:11: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.11 ...anizados em camadas \cite{10.5555/1671238}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+<images/Figura-1-neuronio-artificial.png, id=62, 752.8125pt x 385.44pt>
 File: images/Figura-1-neuronio-artificial.png Graphic file (type png)
 <use images/Figura-1-neuronio-artificial.png>
 Package pdftex.def Info: images/Figura-1-neuronio-artificial.png  used on input line 16.
 (pdftex.def)             Requested size: 301.11966pt x 154.17326pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 21.
+./tesis/referencialteorico.tex:17: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.17 ...odelo perceptron \cite{imagemperceptron}.}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:17: Missing } inserted.
+<inserted text> 
+                }
+l.17 ...odelo perceptron \cite{imagemperceptron}.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/referencialteorico.tex:17: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.17 ...odelo perceptron \cite{imagemperceptron}.}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:17: Missing } inserted.
+<inserted text> 
+                }
+l.17 ...odelo perceptron \cite{imagemperceptron}.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ./tesis/referencialteorico.tex:21: Undefined control sequence.
 l.21 ...peso w, e um termo de viés \(b\) (\textot
@@ -1094,29 +1629,1613 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+./tesis/referencialteorico.tex:21: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.21 ...tado do somatório \cite{haykin2009neural}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
 
 
 [3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./images/Figura-1-neuronio-artificial.png>]
-<images/redeconv.png, id=73, 1062.97125pt x 439.6425pt>
+Package acronym Info: Label `acro:MLP' newly defined as it shall be overridden
+although it is yet undefined on input line 24.
+Package acronym Info: Label `acro:CNN' overridden on input line 24.
+
+./tesis/referencialteorico.tex:26: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.26 ...tamanho variado \cite{gonzalez2008digital}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+<images/redeconv.png, id=82, 1062.97125pt x 439.6425pt>
 File: images/redeconv.png Graphic file (type png)
 <use images/redeconv.png>
-Package pdftex.def Info: images/redeconv.png  used on input line 31.
-(pdftex.def)             Requested size: 425.18097pt x 175.85388pt.
+Package pdftex.def Info: images/redeconv.png  used on input line 30.
+(pdftex.def)             Requested size: 318.89384pt x 131.89375pt.
+./tesis/referencialteorico.tex:38: Use of \@ doesn't match its definition.
+<argument> ... \fi {\authorcapstyle \@citename \@}
+                                                  \fi \let \@citeprevious \@...
+l.38 ...ialmente proposto por \citeauthor{Vaswani}
+                                                  . Diferente dos modelos re...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+<images/ModalNet-21.png, id=87, 366.168pt x 539.3751pt>
+File: images/ModalNet-21.png Graphic file (type png)
+<use images/ModalNet-21.png>
+Package pdftex.def Info: images/ModalNet-21.png  used on input line 45.
+(pdftex.def)             Requested size: 183.08354pt x 269.68689pt.
+<images/ModalNet-19.png, id=88, 107.2005pt x 212.9556pt>
+File: images/ModalNet-19.png Graphic file (type png)
+<use images/ModalNet-19.png>
+Package pdftex.def Info: images/ModalNet-19.png  used on input line 51.
+(pdftex.def)             Requested size: 75.03983pt x 149.06789pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 44--55
+[][] [] 
+ []
+
+./tesis/referencialteorico.tex:57: Use of \@ doesn't match its definition.
+<argument> ...s \else {\authorstyle \@citename \@{
+                                                  }} \citeopen \fi {\yearsty...
+l.57 \citeonline{Vaswani}
+                          define o mecanismo de autoatenção (\textit{self-...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:57: Use of \@ doesn't match its definition.
+<argument> ...eopen \fi {\yearstyle \@citeyear \@}
+                                                  \let \@citeprevious \@cite...
+l.57 \citeonline{Vaswani}
+                          define o mecanismo de autoatenção (\textit{self-...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
 
 
 [4 <./images/redeconv.png>]
+./tesis/referencialteorico.tex:70: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.70 ... usada para a previsão \cite{Dosovitskiy}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
 
-[5]) (./tesis/metodologia.tex
 
-[6]) (./tesis/resultados.tex
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
 
-[7]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+
+ []
+
+<images/model_scheme.pdf, id=103, 798.985pt x 403.5075pt>
+File: images/model_scheme.pdf Graphic file (type pdf)
+<use images/model_scheme.pdf>
+Package pdftex.def Info: images/model_scheme.pdf  used on input line 79.
+(pdftex.def)             Requested size: 319.58833pt x 161.40013pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+./tesis/referencialteorico.tex:85: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.85 ...esultado final combinado \cite{DOI2007198}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+
+[5 <./images/ModalNet-21.png> <./images/ModalNet-19.png>]
+./tesis/referencialteorico.tex:95: Use of \@ doesn't match its definition.
+<argument> ...s \else {\authorstyle \@citename \@{
+                                                  }} \citeopen \fi {\yearsty...
+l.95 Já \citeonline{BRINKER201911}
+                                   , apresentou em sua pesquisa um sistema C...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:95: Use of \@ doesn't match its definition.
+<argument> ...eopen \fi {\yearstyle \@citeyear \@}
+                                                  \let \@citeprevious \@cite...
+l.95 Já \citeonline{BRINKER201911}
+                                   , apresentou em sua pesquisa um sistema C...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+
+[6 <./images/model_scheme.pdf>]
+./tesis/referencialteorico.tex:98: Use of \@ doesn't match its definition.
+<argument> ... \fi {\authorcapstyle \@citename \@}
+                                                  \fi \let \@citeprevious \@...
+l.98 ...ermatológico, \citeauthor{DASH2020106240}
+                                                   Dash apresenta um sistema...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Package acronym Info: Label `acro:EM' newly defined as it shall be overridden
+although it is yet undefined on input line 101.
+./tesis/referencialteorico.tex:101: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.101 ...por computador \cite{gonzalez2008digital}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:104: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.104 ...tetura de redes neurais \cite{DOI2007198}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./tesis/referencialteorico.tex:107: Use of \@ doesn't match its definition.
+<argument> ...tename }, {\yearstyle \@citeyear \@}
+                                                  \fi \let \@citeprevious \@...
+l.107 ...convolucionais \cite{gonzalez2008digital}
+                                                  .
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+) (./tesis/metodologia.tex
+./tesis/metodologia.tex:3: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./tesis/metodologia.tex:3: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+Things are pretty mixed up, but I think the worst is over.
+
+./tesis/metodologia.tex:3: Extra \endcsname.
+\AC@overriddenmessage ... \csname #2@#3\endcsname 
+                                                  \@nnil \expandafter \@firs...
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I'm ignoring this, since I wasn't doing a \csname.
+
+./tesis/metodologia.tex:3: Undefined control sequence.
+\@nnil ->\@nil 
+               
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package acronym Info: Label `acro:\acs {CNN}' newly defined as it shall be overridden
+although it is yet undefined on input line 3.
+./tesis/metodologia.tex:3: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./tesis/metodologia.tex:3: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+Things are pretty mixed up, but I think the worst is over.
+
+./tesis/metodologia.tex:3: Extra \endcsname.
+<argument> ...\csname s@acro:\acs {CNN}\endcsname 
+                                                  \empty 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I'm ignoring this, since I wasn't doing a \csname.
+
+./tesis/metodologia.tex:3: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+Package acronym Warning: Acronym \def  is not defined on input line 3.
+
+./tesis/metodologia.tex:3: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./tesis/metodologia.tex:3: Undefined control sequence.
+\reserved@a ->\@nil 
+                    
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tesis/metodologia.tex:3: Argument of \acsa has an extra }.
+<inserted text> 
+                \par 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./tesis/metodologia.tex:3: Paragraph ended before \acsa was complete.
+<to be read again> 
+                   \par 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Missing } inserted.
+<inserted text> 
+                }
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tesis/metodologia.tex:3: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+Things are pretty mixed up, but I think the worst is over.
+
+./tesis/metodologia.tex:3: Undefined control sequence.
+<recently read> \WSF:\@nil 
+                           
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./tesis/metodologia.tex:3: Extra \endcsname.
+<argument> ...get \csname fn@\acs {CNN}\endcsname 
+                                                  \@firstoftwo {\acs {CNN}}
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I'm ignoring this, since I wasn't doing a \csname.
+
+./tesis/metodologia.tex:3: Argument of \@firstoftwo has an extra }.
+<inserted text> 
+                \par 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./tesis/metodologia.tex:3: Paragraph ended before \@firstoftwo was complete.
+<to be read again> 
+                   \par 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./tesis/metodologia.tex:3: Too many }'s.
+<recently read> }
+                 
+l.3 ...o de desenvolver um sistema \acs{\acs{CNN}}
+                                                  , que será formado a part...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+Package acronym Info: Label `acro:FMABC' overridden on input line 3.
+
+
+[7]
+Package acronym Info: Label `acro:ETL' overridden on input line 6.
+
+
+[8]) (./tesis/resultados.tex
+
+[9]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
 bibitemlist
 
 
-[8]))
+[10]))
 
-[9] (./main.aux)
+[11] (./main.aux
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Extra \endcsname.
+\@ifundefin@d@i ...fter \ifx \csname #2\endcsname 
+                                                  \relax \@ifundefin@d@ii \f...
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:104: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:104: Extra \endcsname.
+\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.104 ...CNN}}{{3}{7}{Metodologia}{section.0.3}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:107: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.107 \acronymused{\acs {CNN}}
+                              
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:107: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.107 \acronymused{\acs {CNN}}
+                              
+Things are pretty mixed up, but I think the worst is over.
+
+./main.aux:107: Extra \endcsname.
+\acronymused ... \csname acused@#1@once\endcsname 
+                                                  \AC@used \expandafter \ifx...
+l.107 \acronymused{\acs {CNN}}
+                              
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:107: Missing \endcsname inserted.
+<to be read again> 
+                   \begingroup 
+l.107 \acronymused{\acs {CNN}}
+                              
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./main.aux:107: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.107 \acronymused{\acs {CNN}}
+                              
+Things are pretty mixed up, but I think the worst is over.
+
+./main.aux:107: Extra \endcsname.
+\acronymused ...\csname acused@#1@twice\endcsname 
+                                                  \AC@used \relax \else \glo...
+l.107 \acronymused{\acs {CNN}}
+                              
+I'm ignoring this, since I wasn't doing a \csname.
+
+./main.aux:109: Undefined control sequence.
+l.109 \AC
+         @undonewlabel{acro:FMABC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./main.aux:110: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \newlabel
+               {acro:FMABC}{{1}{7}{Introdução}{section.0.3}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.aux:117: Undefined control sequence.
+l.117 \AC
+         @undonewlabel{acro:ETL}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./main.aux:118: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \newlabel
+               {acro:ETL}{{1}{8}{Introdução}{section.0.3}{}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.aux:131: Undefined control sequence.
+l.131 \BKM
+          @entry{id=5,dest={73656374696F6E2E302E34},srcline={1}}{5C3337365C3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:132: Use of \@ doesn't match its definition.
+l.132 \@w
+         ritefile{toc}{\contentsline {section}{\numberline {4}Resultados e D...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Overfull \hbox (1445.9235pt too wide) in paragraph at lines 104--132
+\T1/lmr/m/n/10.95 (-20) cro:ETL18Introdu��osection.0.3             @en-tryid=5,dest=73656374696F6E2E302E34,srcline=15C3337365C3337375C303030525C303030655C303030735C303030755C3030306C5C303030745C303030615C303030645C3030306F5C303030735C3030305C3034305C303030655C3030305C3034305C303030445C303030695C303030735C303030635C303030755C303030735C303030735C3030305C3334335C3030306F
+ []
+
+./main.aux:132: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.132 ... e Discussão}{9}{section.0.4}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+./main.aux:133: Undefined control sequence.
+l.133 \BKM
+          @entry{id=6,dest={73656374696F6E2E302E35},srcline={1}}{5C3337365C3...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.aux:136: Undefined control sequence.
+l.136 \BKM
+          @entry{id=7,dest={636861707465722A2E35},srcline={3}}{5C3337365C333...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./main.aux:137: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 \bibcite{Arora2021}{Arora et al. 2021}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:138: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 \bibciteEXPL{Arora2021}{Arora et al.}
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:139: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 \bibciteIMPL{Arora2021}{ARORA et al.}
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:140: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 \bibciteYEAR{Arora2021}{2021}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:141: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \bibcite{Barroso2021}{Barroso et al. 2021}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:142: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \bibciteEXPL{Barroso2021}{Barroso et al.}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:143: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 \bibciteIMPL{Barroso2021}{BARROSO et al.}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:144: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \bibciteYEAR{Barroso2021}{2021}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:145: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 \bibcite{BRINKER201911}{Brinker et al. 2019}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:146: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 \bibciteEXPL{BRINKER201911}{Brinker et al.}
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:147: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \bibciteIMPL{BRINKER201911}{BRINKER et al.}
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:148: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \bibciteYEAR{BRINKER201911}{2019}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:149: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \bibcite{DASH2020106240}{Dash et al. 2020}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:150: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 \bibciteEXPL{DASH2020106240}{Dash et al.}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:151: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \bibciteIMPL{DASH2020106240}{DASH et al.}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:152: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \bibciteYEAR{DASH2020106240}{2020}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:153: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \bibcite{DOI2007198}{Doi 2007}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:154: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \bibciteEXPL{DOI2007198}{Doi}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:155: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \bibciteIMPL{DOI2007198}{DOI}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:156: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \bibciteYEAR{DOI2007198}{2007}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:157: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...ite{Dosovitskiy}{Dosovitskiy et al. 2020}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:158: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...citeEXPL{Dosovitskiy}{Dosovitskiy et al.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:159: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...citeIMPL{Dosovitskiy}{DOSOVITSKIY et al.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:160: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \bibciteYEAR{Dosovitskiy}{2020}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:161: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...nzalez2008digital}{Gonzalez e Woods 2008}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:162: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 ...PL{gonzalez2008digital}{Gonzalez e Woods}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:163: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...MPL{gonzalez2008digital}{GONZALEZ; WOODS}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:164: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \bibciteYEAR{gonzalez2008digital}{2008}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:165: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...e{Griffiths2007}{Griffiths e Barker 2007}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:166: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 ...teEXPL{Griffiths2007}{Griffiths e Barker}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:167: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...iteIMPL{Griffiths2007}{GRIFFITHS; BARKER}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:168: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \bibciteYEAR{Griffiths2007}{2007}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:169: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \bibcite{Hameed2019}{Hameed et al. 2019}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:170: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \bibciteEXPL{Hameed2019}{Hameed et al.}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:171: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \bibciteIMPL{Hameed2019}{HAMEED et al.}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:172: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \bibciteYEAR{Hameed2019}{2019}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:173: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \bibcite{haykin2009neural}{Haykin 2009}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:174: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \bibciteEXPL{haykin2009neural}{Haykin}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:175: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \bibciteIMPL{haykin2009neural}{HAYKIN}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:176: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \bibciteYEAR{haykin2009neural}{2009}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:177: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...imagemperceptron}{Martiniano et al. 2016}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:178: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 ...EXPL{imagemperceptron}{Martiniano et al.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:179: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 ...IMPL{imagemperceptron}{MARTINIANO et al.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:180: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 \bibciteYEAR{imagemperceptron}{2016}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:181: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \bibcite{Miller2013}{Miller et al. 2013}
+                                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:182: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \bibciteEXPL{Miller2013}{Miller et al.}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:183: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \bibciteIMPL{Miller2013}{MILLER et al.}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:184: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \bibciteYEAR{Miller2013}{2013}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:185: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 ...e{10.5555/1671238}{Russell e Norvig 2009}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:186: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 ...teEXPL{10.5555/1671238}{Russell e Norvig}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:187: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ...iteIMPL{10.5555/1671238}{RUSSELL; NORVIG}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:188: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 \bibciteYEAR{10.5555/1671238}{2009}
+                                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main.aux:189: Use of \@ doesn't match its definition.
+l.189 \@w
+         ritefile{toc}{\contentsline {section}{\numberline {5}Conclusão}{10...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Overfull \hbox (575.67227pt too wide) in paragraph at lines 132--189
+[]\T1/lmr/m/n/10.95 (-20) @file@percent  @en-tryid=6,dest=73656374696F6E2E302E35,srcline=15C3337365C3337375C303030435C3030306F5C3030306E5C303030635C3030306C5C303030755C303030735C3030305C3334335C3030306F
+ []
+
+
+Overfull \hbox (561.317pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) @en-tryid=7,dest=636861707465722A2E35,srcline=35C3337365C3337375C303030525C303030655C303030665C303030655C303030725C3030305C3335325C3030306E5C303030635C303030695C303030615C30303073
+ []
+
+
+Overfull \hbox (1.24702pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) bA-rora2021[]Arora et al. 2021[] bA-rora2021++EXPL[]Arora et al.[] bA-rora2021++IMPL[]ARORA
+ []
+
+
+Overfull \hbox (23.35715pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al.[] bA-rora2021++YEAR[]2021[] bBar-roso2021[]Barroso et al. 2021[] bBar-roso2021++EXPL[]Barroso
+ []
+
+
+Overfull \hbox (48.32361pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al.[] bBar-roso2021++IMPL[]BARROSO et al.[] bBar-roso2021++YEAR[]2021[] bBRIN-KER201911[]Brinker
+ []
+
+
+Overfull \hbox (5.38728pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al. 2019[] bBRIN-KER201911++EXPL[]Brinker et al.[] bBRIN-KER201911++IMPL[]BRINKER
+ []
+
+
+Overfull \hbox (84.3337pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al.[] bBRIN-KER201911++YEAR[]2019[] bDASH2020106240[]Dash et al. 2020[] bDASH2020106240++EXPL[]Dash
+ []
+
+
+Overfull \hbox (32.59114pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al.[] bDASH2020106240++IMPL[]DASH et al.[] bDASH2020106240++YEAR[]2020[] bDOI2007198[]Doi
+ []
+
+
+Overfull \hbox (7.7975pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) kiy++IMPL[]DOSOVITSKIY et al.[] bDo-so-vits-kiy++YEAR[]2020[] bgon-za-lez2008digital[]Gonzalez
+ []
+
+
+Overfull \hbox (70.3787pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) e Wo-ods 2008[] bgon-za-lez2008digital++EXPL[]Gonzalez e Wo-ods[] bgon-za-lez2008digital++IMPL[]GONZALEZ;
+ []
+
+
+Overfull \hbox (43.65604pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) et al.[] bHa-meed2019++IMPL[]HAMEED et al.[] bHa-meed2019++YEAR[]2019[] bhay-kin2009neural[]Haykin
+ []
+
+
+Overfull \hbox (102.89275pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) 2009[] bhay-kin2009neural++EXPL[]Haykin[] bhay-kin2009neural++IMPL[]HAYKIN[] bhay-kin2009neural++YEAR[]2009[]
+ []
+
+
+Overfull \hbox (62.10074pt too wide) in paragraph at lines 132--189
+\T1/lmr/m/n/10.95 (-20) al.[] bMil-ler2013++YEAR[]2013[] b10.5555/1671238[]Russell e Nor-vig 2009[] b10.5555/1671238++EXPL[]Russell
+ []
+
+./main.aux:189: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.189 ...5}Conclusão}{10}{section.0.5}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+./main.aux:190: Use of \@ doesn't match its definition.
+l.190 \@w
+         ritefile{toc}{\contentsline {chapter}{Refer\^encias}{10}{chapter*.5...
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./main.aux:190: You can't use a prefix with `the character @'.
+<to be read again> 
+                   @
+l.190 ...Refer\^encias}{10}{chapter*.5}\protected@
+                                                  file@percent }
+I'll pretend you didn't say \long or \outer or \global or \protected.
+
+
+./main.aux:191: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \bibcite{Vaswani}{Vaswani et al. 2017}
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:192: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \bibciteEXPL{Vaswani}{Vaswani et al.}
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:193: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \bibciteIMPL{Vaswani}{VASWANI et al.}
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main.aux:194: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194 \bibciteYEAR{Vaswani}{2017}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1125,20 +3244,31 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
- ) 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+./main.tex:117: Extra \endgroup.
+\enddocument ...eHook {enddocument/info}\endgroup 
+                                                  \UseOneTimeHook {enddocume...
+l.117 \end{document}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+ )
+(\end occurred when \ifx on line 3 was incomplete) 
 Here is how much of TeX's memory you used:
- 21564 strings out of 473190
- 355982 string characters out of 5715800
- 876277 words of memory out of 5000000
- 44291 multiletter control sequences out of 15000+600000
- 621601 words of font info for 148 fonts, out of 8000000 for 9000
+ 22250 strings out of 473190
+ 365906 string characters out of 5715800
+ 891428 words of memory out of 5000000
+ 44961 multiletter control sequences out of 15000+600000
+ 621460 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,131p,1858b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,131p,1971b,1072s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb>
-Output written on main.pdf (10 pages, 250279 bytes).
+Output written on main.pdf (13 pages, 1067873 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 34883 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 34874 words of extra memory for PDF output out of 35830 (max. 10000000)
 
