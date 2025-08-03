@@ -15,11 +15,9 @@
 	% -- opções do pacote babel --
 	english,			% idioma adicional para hifenização
 	brazil,				% o último idioma é o principal do documento
-	sumario=tradicional,
-  acronyms=false
+	sumario=tradicional 
 	]{abntex2}
 
-\usepackage[nolist]{acronym}
 \usepackage{lmodern}			  % Usa a fonte Latin Modern
 \usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
 \usepackage[utf8]{inputenc} % Codificacao do documento (conversão automática dos acentos)
@@ -39,11 +37,12 @@
 \usepackage{subcaption}
 \usepackage{fancyhdr}
 
+\usepackage[acronym,nolist,nonumberlist,nogroupskip,nonumbers]{glossaries}
 
 % ----------- CONFIGURACOES E FORMATACAO ---------- %
 
 \selectlanguage{brazil}
-
+% \let\printacronyms\relax
 % --- 
 % Espaçamentos entre linhas e parágrafos 
 % --- 
@@ -63,30 +62,36 @@
 % Retira espaço extra obsoleto entre as frases.
 \frenchspacing 
 
-\begin{acronym}
-    \acro{CAD}{Computer-Aided Diagnosis}
-    \acro{CNN}{Convolutional Neural Network}
-    \acro{MLP}{\textit{Multilayer Perceptron}}
-    \acro{IA}{Inteligência Artificial}
-    \acro{FMABC}{Faculdade de Medicina do ABC}
-    \acro{PASI}{Psoriasis Area and Severity Index}
-    \acro{EM}{espectro eletromagnético} 
-    \acro{ETL}{\textit{Extract Transform Load}}
-\end{acronym}
+
+\makeglossaries
+
+% ----------- DEFINIÇÃO DAS SIGLAS COM GLOSSARIES ---------- %
+% Defina suas siglas aqui, ANTES DE \begin{document}.
+% O primeiro argumento é o rótulo (label), o segundo é a sigla curta, o terceiro é a descrição completa.
+\newacronym{cad}{CAD}{Computer-Aided Diagnosis}
+\newacronym{cnn}{CNN}{Convolutional Neural Network}
+\newacronym{mlp}{MLP}{\textit{Multilayer Perceptron}}
+\newacronym{ia}{IA}{Inteligência Artificial}
+\newacronym{fmabc}{FMABC}{Faculdade de Medicina do ABC}
+\newacronym{pasi}{PASI}{Psoriasis Area and Severity Index}
+\newacronym{em}{EM}{espectro eletromagnético} 
+\newacronym{etl}{ETL}{\textit{Extract Transform Load}}
 
 % ---------- INICIO DO TEXTO --------------- %
 \begin{document}
 
 
-% configuração do cabeçalho e rodapé
+%titulo
+\input{tesis/cover}
+
+\fancyheadoffset[L]{0pt} % Remove offset da esquerda
+\fancyheadoffset[R]{0pt} % Remove offset da direita
+\fancyfootoffset[L]{0pt}
+\fancyfootoffset[R]{0pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE,RO]{\small{\textit{XXI jornada de Iniciação Científica}}}
 \fancyfoot[C]{\thepage}
-
-
-%titulo
-\input{tesis/cover}
 
 
 %tese
