@@ -11,8 +11,8 @@ A etapa de coleta de dados configura-se da responsabilidade de estabelcer formas
 
 \begin{figure}[h] % Ajuste largura
     \centering
-    \includegraphics[width=0.3\textwidth]{images/datasetexample.jpg}
-    \caption{Imagem de paciente com psoríase}
+    \includegraphics[width=0.6\textwidth]{images/dataset_example.jpg}
+    \caption{Imagem de paciente com psoríase (FMABC, 2025)}
     \label{fig:ex-dataset}
 \end{figure}
 
@@ -26,6 +26,13 @@ Para lidar com as limitações mencionadas anteriormente, foram desenvolvidos e 
 
 Outro desafio encontrado durante o pré processamento foram as dimensões das imagens, já que as imagens tinham dimensões por volta de 2400x3800 pixels, e esse tipo de arquitetura trabalha com entradas de 521x521 pixes, assim todas as tentativas de aplicar redimensionamento nas imagens não tiveram bons resultados, pois houve uma perda muito grande de qualidade dos dados, a alternativa encontrada para lidar com isso foi o uso já mencionado de \textit{random cropping}, pois o cropping descarta a necessidade de alterar os pixels da imagem, apenas usar um recorte de uma área randomica.
 
+
+\begin{figure}[h] % Ajuste largura
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/pre_processamento_psoriasis_jitter.png}
+    \caption{Imagem de paciente com psoríase (CORRÊA, 2025)}
+    \label{fig:ex-dataset}
+\end{figure}
 No processo de \textit{data augmentation}, também foi aplicado a rotação das imagens na horizontal e vertical, assim a mesma amostra porém em posição diferente poderia ser utilizada para treinamento da rede, o que enriqueceu o dataset e fortaleceu a capacidade de generalização do modelo. 
 Além do aumento da base de dados, foram aplicadas transformações no domínio de cores das imagens. As imagens foram convertidas para o domínio de cor YCbCr, muitos \textit{softwares} de edição de imagens utilizam esse domínio para manipulação desses dados. A principal vantagem desse domínio é a separação da informação de luminância (canal Y) da informação de crominância (canais Cb e Cr)
 
@@ -100,6 +107,16 @@ Por fim, o \textit{F1-Score}, que representa a média harmônica entre precisão
 \end{equation}
 
 Para estabelecer os mapas de calor e promover uma compreensão visual dos resultados do modelo, a ferramenta utilizada para essa tarefa é foi o \textit{GradCam}, uma ferramenta de interpretabilidade que gera mapas de calor para qualquer camada convolucional de uma rede neural. Esses mapas destacam as regiões da imagem de entrada que mais influenciaram a decisão do modelo para uma determinada classe.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.4]{images/test1-compesos.png}
+  \end{center}
+  \caption{Resultado da classificacão do modelo com \textit{GradCam}}
+  \label{fig:gradcam}
+\end{figure}
+
 
 Na Figura \ref{fig:gradcam}, é apresentado um exemplo de um mapa de calor gerado pelo Grad-CAM para a classe Psoríase. A análise da imagem demonstra que as regiões de maior ativação da rede (indicadas pelas cores quentes, como amarelo e vermelho) correspondem diretamente à área da lesão dermatológica. Essa observação valida o comportamento do modelo, confirmando que ele não se baseia em ruídos ou em informações de fundo, mas sim nas características morfológicas da lesão, que são clinicamente relevantes para o diagnóstico.
 

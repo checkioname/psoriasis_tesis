@@ -1,0 +1,30 @@
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+    \centering
+    \begin{axis}[
+        title={Curva de Acurácia no Teste},
+        xlabel={Épocas},
+        ylabel={Acurácia (\%)},
+        xmin=0, xmax=40,
+        font=\footnotesize,
+        % xmin=0, xmax=2, 
+        ymin=70, ymax=100,
+        xtick=data, % <--- ALTERAÇÃO AQUI!
+        ytick distance=5,
+        grid=major,
+        legend pos=north west,
+        width=2.60\textwidth,
+        height=1.0\textwidth,
+        scale=0.4,
+    ]
+    \addplot[thick, red, mark=*, mark options={fill=white}] 
+        table [x=Step, y=Value, col sep=comma] {data/acctest.csv};
+    
+    \legend{Perda de Treinamento}
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Curva de acurácia do modelo no conjunto de teste ao longo das épocas.}
+    \label{fig:accuracy_test}
+\end{figure}

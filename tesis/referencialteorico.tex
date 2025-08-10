@@ -43,13 +43,13 @@ Essa abordagem permitiu uma paralelização significativamente maior durante o t
 \begin{figure}
   \begin{minipage}[b]{0.6\textwidth}
     \includegraphics[scale=0.5]{images/ModalNet-21}
-    \caption{Arquitetura do transformer.}
+    \caption{Arquitetura do transformer. (\citeonline{Vaswani})}
     \label{fig:transformer-arch}
   \end{minipage}
   \begin{minipage}[b]{0.5\textwidth}
     \centering
     \includegraphics[scale=0.7]{images/ModalNet-19}
-    \caption{Scaled Dot-Product Attention.}
+    \caption{Scaled Dot-Product Attention. (\citeonline{Vaswani})}
     \label{fig:dot-att}
   \end{minipage}
 \end{figure}
@@ -65,7 +65,7 @@ Essa abordagem permitiu uma paralelização significativamente maior durante o t
 % \end{figure}
 %
 % Model overview. We split an image into fixed-size patches, linearly embed each of them, add position embeddings, and feed the resulting sequence of vectors to a standard Transformer encoder. In order to perform classification, we use the standard approach of adding an extra learnable classification token to the sequence. - peguei do artigo original
-
+  
 Os \textit{Visual Transformers} (figura \ref{fig:vit-arch}), por sua vez, dividem as imagens em patches de tamanhos fixos diferentemente das \gls{cnn}s que processam pixels diretamente ou por meio de filtros convolucionais, cada um desses patches é vetorizado e a esses vetores são adicionados embutimentos de posição (\textit{position embeddings}), para preservar a informação espacial original da imagem, após essa operação, essa sequencia passa por um \textit{encoder} padão que utiliza o algoritmo de atenção para aprender os padrões daquela sequência e as relações entre os diferentes patches da imagem. Para realizar tarefas de classificação, como a detecção de doenças de pele, um token de classificação extra, que é treinável, é adicionado à sequência, e sua saída final é usada para a previsão \cite{Dosovitskiy}.
 \newline
 \newline
@@ -77,7 +77,7 @@ Os \textit{Visual Transformers} (figura \ref{fig:vit-arch}), por sua vez, divide
     \begin{tabular}{c}
       \includegraphics[scale=0.4]{images/model_scheme.pdf}
     \end{tabular}
-    \caption{The Visual Transformer}
+    \caption{The Visual Transformer. (\citeonline{Dosovitskiy})}
     \label{fig:vit-arch}
 \end{figure}
 
