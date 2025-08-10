@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  24 JUL 2025 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  10 AUG 2025 03:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1390,8 +1390,73 @@ and I'll forget about whatever was undefined.
 ) (./tesis/metodologia.tex
 
 [7]
+<images/datasetexample.jpg, id=175, 1130.2225pt x 877.2775pt>
+File: images/datasetexample.jpg Graphic file (type jpg)
+<use images/datasetexample.jpg>
+Package pdftex.def Info: images/datasetexample.jpg  used on input line 14.
+(pdftex.def)             Requested size: 127.8013pt x 99.19144pt.
 
-[8]) (./tesis/resultados.tex
+
+[8 <./images/datasetexample.jpg>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 36.
+
+
+Package caption Warning: \label without proper reference on input line 44.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:hiperparametros' on page 9 undefined on input line 40.
+
+
+
+[9]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 53.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 70.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 98.
+
+
+
+[10]
+
+LaTeX Warning: Reference `fig:gradcam' on page 11 undefined on input line 104.
+
+) (./tesis/resultados.tex
 
 ./tesis/resultados.tex:7: LaTeX Error: There's no line here to end.
 
@@ -1407,11 +1472,11 @@ or  <return>  to continue without it.
 
 
 
-[9]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
+[11{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
 bibitemlist
 
 
-[10]))
+[12]))
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1419,7 +1484,7 @@ This document will not have a glossary.
 
 
 
-[11] (./main.aux)
+[13] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1430,16 +1495,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28254 strings out of 473190
- 506481 string characters out of 5715800
- 1124624 words of memory out of 5000000
- 50898 multiletter control sequences out of 15000+600000
- 621247 words of font info for 146 fonts, out of 8000000 for 9000
+ 28348 strings out of 473190
+ 508027 string characters out of 5715800
+ 1125088 words of memory out of 5000000
+ 50962 multiletter control sequences out of 15000+600000
+ 622476 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,13n,131p,2350b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:mlp} has been referenced but does not exist, replaced by a fixed one
-
 
 pdfTeX warning (dest): name{glo:etl} has been referenced but does not exist, replaced by a fixed one
 
@@ -1458,11 +1520,11 @@ pdfTeX warning (dest): name{glo:pasi} has been referenced but does not exist, re
 
 pdfTeX warning (dest): name{glo:cad} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb>
-Output written on main.pdf (13 pages, 1066515 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (15 pages, 1198478 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 34898 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 35439 words of extra memory for PDF output out of 35830 (max. 10000000)
 

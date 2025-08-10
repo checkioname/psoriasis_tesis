@@ -1,96 +1,109 @@
 \section{Metodologia}
 
-O presente projeto tem a intenção de desenvolver um sistema \gls{cnn}, que será formado a partir de uma arquitetura de \gls{ia} híbrida, em que uma parte desse modelo terá a tarefa de lidar com a base de dados de imagens que será fornecida pela \gls{fmabc}, sendo essa base composta de imagens de pacientes brasileiros afetados pela psoríase, e a outra parte lidar com os dados clínicos, como por exemplo exames de sangue PCR e velocidade de hemossedimentação, ambos os exames podem sofrer alteração em casos inflamatórios, que também será fornecido pela \gls{fmabc} em anuência do comitê de ética em pesquisa da \gls{fmabc}. A intenção dessa proposta é que a combinação de diferentes análises e informações traga um aumento na precisão desse tipo de sistema, fornecendo um suporte à tomada de decisão. Efetivamente, será implementada uma solução de ponta a ponta, que exigirá desde técnicas para o tratamento e preparo dos dados, até soluções para o refinamento do modelo de \gls{ia}.
+O presente projeto apresenta o desenvolvimento de um sistema \gls{cad}, a partir de uma arquitetura de \textit{visual transformers}, em que desse modelo terá a tarefa de lidar com a base de dados de imagens que foi fornecida pela \gls{fmabc}, sendo essa base composta de imagens de pacientes brasileiros afetados pela psoríase e pacientes com dermatite. A intenção dessa proposta é que a combinação de diferentes análises e informações traga um aumento na precisão desse tipo de sistema, fornecendo um suporte à tomada de decisão. Efetivamente, será implementada uma solução de ponta a ponta, que exigirá desde técnicas para o tratamento e preparo dos dados, até soluções para o refinamento do modelo de \gls{ia}.
+
+A partir dos conceitos de redes neurais artificiais e \textit{transformers}, fica mais claro entender a construção dos modelos de \gls{ia}, que seguem um certo fluxo padrão, esse fluxo é conhecido como \textit{pipeline}. Os \textit{pipelines} de \gls{ia} envolvem todo o fluxo de atividades necessárias para o funcionamento apropriado do modelo. De modo genérico, este fluxo geralmente começa com atividades relacionadas à extração, transformação e carregamento dos dados, processo conhecido como \gls{etl}; no caso de modelos de \gls{ia} voltados a visão computacional, essa fase utiliza técnicas para preparar essas imagens a um modelo de \gls{ia}, geralmente envolvendo atividades relacionadas ao processamento digital de imagens. Além das transformações nas imagens é necessário realizar uma estratificação dos dados, uma parte deve ser separada para o treinamento da rede, enquanto a outra deve ser exclusivamente voltada para a validação da rede. A etapa seguinte envolve o treinamento da rede, essa etapa exige diferentes técnicas para o sucesso do modelo, entre essas técnicas estão a escolha de um algoritmo de otimização adequado ao problema, o uso de uma função de perda apropriada, ajuste correto dos hiperparâmetros da rede e número de épocas no treinamento. As subseções a seguir destacam cada uma das fases do pipeline aplicado para o desenvolvimento do modelo.
+
+\subsection{Coleta de dados}
+
+A etapa de coleta de dados configura-se da responsabilidade de estabelcer formas consistentes de acesso aos dados, também deve garantir segurança e a integridade dessas informações. Para a realização da coleta de dados, foram desenvolvidos \textit{scripts} utilizando a linguagem de programação Go, uma ferramenta que ganhou muita popularidade devido a sua performance. O desenvolvimento desses \textit{scripts} permitiram que todo o manuseio das informações fosse realizado de forma automatizada, além de coletar os dados, também envolvem tarefas como catalogação das informações.
 
 
-A partir dos conceitos de redes neurais artificiais e \textit{transformers}, fica mais claro entender a construção dos modelos de \gls{ia}, que seguem um certo padrão, esse padrão é conhecido como \textit{pipeline}. Os \textit{pipelines} de \gls{ia} envolvem todo o fluxo de atividades necessárias para o funcionamento apropriado do modelo. De modo genérico, este fluxo geralmente começa com atividades relacionadas à extração, transformação e carregamento dos dados, processo conhecido como \gls{etl}; no caso de modelos de \gls{ia} voltados a visão computacional, essa fase utiliza técnicas para preparar essas imagens a um modelo de \gls{ia}, geralmente envolvendo atividades relacionadas ao processamento digital de imagens. Além das transformações nas imagens é necessário realizar uma estratificação dos dados, uma parte deve ser separada para o treinamento da rede, enquanto a outra deve ser exclusivamente voltada para a validação da rede. A etapa seguinte envolve o treinamento da rede, essa etapa exige diferentes técnicas para o sucesso do modelo, entre essas técnicas estão a escolha de um algoritmo de otimização adequado ao problema, o uso de uma função de perda apropriada, ajuste correto dos hiperparâmetros da rede e número de épocas no treinamento.
+\begin{figure}[h] % Ajuste largura
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/datasetexample.jpg}
+    \caption{Imagem de paciente com psoríase}
+    \label{fig:ex-dataset}
+\end{figure}
 
-Foram estudadas diversas alternativas de parametrização da rede proposta com o objetivo de aumentar a precisão dos diagnósticos, dentre as técnicas aplicadas, se destaca o \textit{GridSearch} . O pipeline desse projeto pode ser dividido inicialmente em algumas etapas, começando com a construção de uma aplicação para a extração, transformação e carregamento (\gls{etl}) dos dados, em que, serão realizadas todas as atividades necessárias para garantir que esses dados estejam seguros e disponíveis, seguindo com técnicas de aumento da base de dados de imagens para o treinamento do modelo de \gls{cnn}, esta fase irá exigir um estudo profundo do conjunto de dados de imagens, pois as transformações aplicadas nas imagens terão impacto direto em como a \gls{cnn} irá desempenhar futuramente. Transformações como o tamanho da imagem, conversão de domínio de cores, rotação das imagens, entre outras diversas transformações serão avaliadas neste momento. Essas técnicas também possibilitam que o modelo seja treinado com uma base de dados maior e mais diversificada, aumentando sua generalização. Além da aplicação de técnicas de aumento da base será necessário utilizar metodologias para a estratificação dos dados, o método utilizado será de validação cruzada k-pastas estratificado para avaliar o desempenho do modelo. Em seguida, será realizado o desenvolvimento e treinamento de um modelo de \gls{cnn}, nesta fase serão estudadas diversas arquiteturas de redes convolucionais e aplicações dessas arquiteturas na área da saúde, além de alternativas para equilibrar a precisão do modelo e sua quantidade de parâmetros, um dos fatores que determina o impacto computacional da rede neural. Por fim, o modelo será avaliado utilizando diferentes métodos estatísticos, como z-score, acurácia, precisão, sensibilidade, especificidade e perda.
+\subsubsection{Pré processamento}
 
-Já a segunda parte compõe a construção e treinamento de um modelo de \gls{mlp}, que trabalhará em conjunto com a \gls{cnn}, portanto, a saída da \gls{cnn} irá compor um dos parâmetros de entrada no \gls{mlp}. Será necessário integrar uma rede \gls{mlp} ao modelo de classificação de imagens. Além das técnicas já previstas como validação cruzada e avaliação do modelo, também será necessário analisar e tratar os dados clínicos e construir a integração dos dois modelos. Será realizado um estudo com os resultados de desempenho desses modelos de forma individual e dos modelos em conjunto, além de uma avaliação da viabilidade para a preparação de tal sistema em um produto.
-%
-% %\input{tesis/tabelas/cronograma}
-%
-% Presente projeto tem característica quantitativa, visto que se enquadra nas definições de ser conseguido na busca de resultados exatos evidenciados por meio de variáveis preestabelecidas, em que se verifica e explica a influência sobre as variáveis, mediante análise da frequência de incidências e correlações estatísticas \cite{michelmetodologia}.
-%
-% O desenvolvimento do trabalho se divide em duas grandes áreas de atuação, Inteligência artificial, que atende todo o escopo do desenvolvimento do modelo de segmentação. E engenharia de software, que engloba os conteúdos necessários para o desenvolvimento do protótipo de software.
-%
-% \subsection{Do desenvolvimento do modelo}
-%
-% Conforme apresentado na seção anterior, a aplicação das técnicas de visão computacional na medicina tem se mostrado muito promisoras para o diagnóstico de doenças complexas e melhora na eficiência do diagnóstico clínico. A integração de diferentes dados, como exames laboratoriais e imagens médicas, possibilitará a construção de um sistema robusto, capaz de analisar diferentes tipos e grandes volumes de dados. A Figura \ref{fig:pipeline} ilustra, de forma abstrata, como será o funcionamento do sistema proposto.
-%
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[scale=0.15]{images/pipeline2.png}
-%     \caption{Pipeline do projeto}
-%     \label{fig:pipeline}
-% \end{figure}
-%
-% Cada fase do pipeline será projetada para realizar operações críticas para o resultado do modelo, buscando também maior desempenho e resiliência para esse sistema. Serão detalhadas cada uma das etapas.
-%
-% \subsubsection{Coleta dos dados}
-%
-% Essa etapa é responsável pela extração e organização dos dados, serão utilizadas técnicas de engenharia de dados para garantir que todo o processo de coleta dos dados seja seguro e consistente. Desta maneira, para assegurar esses objetivos, o sistema terá integração com dados de diversas fontes diferentes, essa integração para a coleta das informações será feita através de interfaces de programação de aplicação (\textit{API}), que possibilitará a automatização dessa fase. Para o desenvolvimento dessa etapa, serão empregadas a linguagem de programação python e a ferramenta \textit{spark} como recursos principais. No contexto deste estudo, a coleta foi realizada a partir de bancos de dados públicos médicos, o portal escolhido responsável pelas informações é o The Cancer Imaging Archive \cite{cancerimaging}, foram extraídos diferentes conjuntos de dados. 
-%
-% A figura \ref{fig:ex-dataset}, apresenta uma imagem retirada do conjunto fornecido pelo the Cancer Imaging Archive. Esse conjunto é composto por 610 imagens microscópicas de melioma múltiplo. A localização do câncer é nos ossos, as imagens possuem ampliação de 1000x, tendo as dimensões de 1126x874 pixels.
-%
-%
-% \begin{figure}[h] % Ajuste largura
-%     \centering
-%     \includegraphics[width=0.3\textwidth]{images/datasetexample.jpg}
-%     \caption{Imagem microscópica de câncer nos ossos}
-%     \label{fig:ex-dataset}
-% \end{figure}
-%
-% \subsubsection{Pré processamento}
-%
-% Após a etapa anterior, será necessário tratar as informações coletadas. Com isso, será aplicado operações como a limpeza de dados, que envolve a remoção de valores inconsistentes, ajuste de escalas de valores e codificação de variáveis categóricas, por exemplo. Além disso, para os dados de imagens, serão utilizadas técnicas de aumento de dados, para maior generalização do modelo. Também serão explorados técnicas de processamento digital de imagens, como regulagem de luminosidade e transformação para diferentes domínios de cor como YCbCr.
-%
-% \subsubsection{Extração de características}
-%
-% Antes de realizar o treinamento efetivo do modelo, será necessário extrair características a partir das imagens médicas, como textura, bordas e padrões. Durante a fase de extração de características, o principal objetivo é transformar os dados recebidos em representações que melhor capturam os padrões subjacentes e são mais informativas para o algoritmo de aprendizado. Para a seleção de características relevantes, técnicas como análise de correlação e análise de variância serão utilizados para apoio à seleção. Para os dados de imagens, a extração de características estará incorporada ao treinamento, visto que as camadas convolucionais têm a responsabilidade de aprender os padrões hierárquicos e abstratos.
-%
-% \subsubsection{Treinamento do modelo}
-%
-% Com todas as informações já preparadas, serão exploradas diferentes técnicas de convoluções para a segmentação das imagens microscópicas, como por exemplo a \textit{pixel-wise convolution}, uma técnica que possibilita a combinação de informações entre os canais de uma imagem. Será avaliado a possibilidade de utilizar técnicas de \textit{ensemble} nessa fase, de modo a combinar da melhor maneira os dados clínicos com as imagens microscópicas. Também será explorado técnicas para otimizar o treinamento, como ajuste da taxa de aprendizado de forma dinâmica entre as diferentes camadas de acordo com algumas métricas, como o erro das previsões. Para fins de melhora no desempenho, o treinamento do modelo também envolverá técnicas de computação paralela, com isso será possível um treinamento mais otimizado do sistema.
-%
-% \subsubsection{Avaliação do modelo}
-%
-% Como etapa final, a avaliação do modelo é responsável por aplicar métodos estatísticos para consolidar os resultados das etapas previstas. Conforme os resultados desses métodos, será possível analisar se o desempenho do modelo está de acordo com o esperado. Dentre as técnicas mais comuns, serão utilizadas métricas como acurácia, definida pela fórmula 
-% \begin{equation}
-%   acurácia = \frac{VP +VN}{VP + FN + VN + FP} \; ,
-%     \label{eq: acuracia}
-% \end{equation}
-% \\
-% em que \(VP\) é a quantidade de verdadeiros positivos; \(VN\) é a quantidade de verdadeiros negativos; \(FN\) é a quantidade de falsos negativos e \(FP\) é a quantidade de falsos positivos. Também será utilizado a métrica de avaliação precisão, determinada pela fórmula:
-%
-% \begin{equation} 
-%   precisão = \frac{VP}{VP + VF} \; ,
-%   \label{eq: precisao}
-% \end{equation}
-%  \\
-% E por último, uma métrica de avaliação chamada sensibilidade, estabelecida pela fórmula:
-%
-% \begin{equation}
-% sensibilidade = \frac{VP}{VP + FN} \; ,
-%   \label{eq: sensibilidade}
-% \end{equation}
-% \\
-% Paralelamente, todas as fases irão contar com um minucioso registro de todas as ações para monitoramento do sistema. Além disso, serão implementados mecanismos de auditoria para garantir a rastreabilidade das operações realizadas, promovendo maior transparência e confiabilidade. Esse registro incluirá não apenas informações sobre as decisões tomadas pelo sistema, mas também os dados utilizados em cada etapa, possibilitando a análise detalhada de possíveis erros ou inconsistências e facilitando ajustes futuros para otimização do desempenho.
-%
-% \subsection{Do protótipo da aplicação web}
-%
-% Para o uso desse modelo em um potencial sistema, serão utilizados diferentes componentes de tecnologia, envolvendo áreas como arquitetura de software, desenvolvimento backend, computação em nuvem, e conceitos de computação distribuída, a fim de projetar um sistema que seja resiliente, distribuído e escalável.
-%
-% \subsubsection{Da arquitetura do protótipo}
-% O sistema proposto adota uma arquitetura baseada em microsserviços, modelo arquitetural que promove o desacoplamento dos componentes, permitindo evolução independente de cada serviço. Essa abordagem facilita a escalabilidade horizontal, melhora a manutenção e possibilita a implementação de diferentes tecnologias conforme as necessidades específicas de cada módulo. Além disso, a divisão funcional dos serviços contribui para um gerenciamento mais eficiente da infraestrutura e do processamento de dados, garantindo maior flexibilidade e modularidade no desenvolvimento e na implantação.
-%
-% \subsubsection{Da definição dos protocolos de comunicação}
-% Além da definição da arquitetura desse protótipo, também serão explorados protocolos de comunicação de alta desempenho para garantir maior confiabilidade e reduzir latência entre os serviços. Protocolos como o \textit{Remote Procedure Call} (RPC) serão utilizados para garantir essa comunicação eficiente entre serviços. O RPC possui algumas vantagens em relação a outros protocolos, dentre elas estão a serialização binária e suporte a conexões persistentes, características que garantem um \textit{payload} menor sendo trafegado, reduzindo a latência e otimizando o desempenho \cite{Niswar2024}. 
-%
-% \subsubsection{Do monitoramento do protótipo}
-% A fim de avaliar o desempenho do sistema proposto, serão implementadas estratégias de monitoramento para análise detalhada do comportamento da aplicação em diferentes cenários de carga e uso. Ferramentas como Prometheus e Grafana serão empregadas para coleta de métricas e visualização do desempenho dos microsserviços em tempo real, permitindo identificação de potenciais gargalos e otimizações. Além disso, serão adotadas técnicas de observabilidade avançadas, como logs estruturados e rastreamento distribuído com OpenTelemetry, possibilitando uma análise aprofundada das interações entre os serviços e assegurando uma resposta eficiente a eventuais falhas.
-%
+Durante essa fase, foram estudadas quais seriam as técnicas aplicadas para preparar os dados coletados ao modelo. Nessa fase foram encontrados alguns desafios, entre eles o primeiro é a limitação no número de amostragens recebidas pela instituição parceira e desbalanceamento entre as classes de dados, ou seja, na prática haviam muito mais imagens da categoria psoríase.
+
+Antes do uso desses dados para o modelo, foi necessário uma inspeção manual sobre o dataset, que resultou na exclusão de muitas imagens, devido a fatores como baixa qualidade, por exemplo imagens que estavam muito embaçadas ou com baixa resolução, e representação inadequada da classe, em que algumas fotografias que mostravam o corpo todo, e não a área lesionada. A utilização de tais imagens poderiam introduzir ruído e prejudicar a capacidade de generalização do modelo. Adicionalmente, foi executado um pré-processamento específico para remover o fundo azul comum na maioria das imagens, assegurando que o modelo focasse exclusivamente nas características morfológicas das lesões.
+
+Para lidar com as limitações mencionadas anteriormente, foram desenvolvidos e aplicados algoritmos de \textit{image augmentation}, esses algoritmos operam da seguinte maneira, iteram sobre os dados fornecidos, e a partir destes, geram novos dados com filtros pré determinados. Nessa aplicação, os filtros utilizados foram de \textit{random cropping}, que aplica um corte numa posição aleatória da imagem, com essa técnica.
+
+Outro desafio encontrado durante o pré processamento foram as dimensões das imagens, já que as imagens tinham dimensões por volta de 2400x3800 pixels, e esse tipo de arquitetura trabalha com entradas de 521x521 pixes, assim todas as tentativas de aplicar redimensionamento nas imagens não tiveram bons resultados, pois houve uma perda muito grande de qualidade dos dados, a alternativa encontrada para lidar com isso foi o uso já mencionado de \textit{random cropping}, pois o cropping descarta a necessidade de alterar os pixels da imagem, apenas usar um recorte de uma área randomica.
+
+No processo de \textit{data augmentation}, também foi aplicado a rotação das imagens na horizontal e vertical, assim a mesma amostra porém em posição diferente poderia ser utilizada para treinamento da rede, o que enriqueceu o dataset e fortaleceu a capacidade de generalização do modelo. 
+Além do aumento da base de dados, foram aplicadas transformações no domínio de cores das imagens. As imagens foram convertidas para o domínio de cor YCbCr, muitos \textit{softwares} de edição de imagens utilizam esse domínio para manipulação desses dados. A principal vantagem desse domínio é a separação da informação de luminância (canal Y) da informação de crominância (canais Cb e Cr)
+
+Por fim, todas as imagens foram normalizadas, um passo crucial para o treinamento de redes neurais. O procedimento de normalização consistiu em ajustar os valores dos pixels para o intervalo [0, 1], o que garante que a rede não seja afetada pela escala dos dados de entrada, promovendo uma convergência mais rápida e estável do modelo.
+
+\subsection{Treinamento do modelo}
+
+Para avaliar o desempenho do modelo de forma robusta e imparcial, foi utilizada a validação cruzada com \textit{k-folds} estratificada. O conjunto de dados foi dividido em \(k= [Número de folds]\) \textit{folds}, garantindo que a proporção das classes fosse mantida em cada partição de treinamento e teste. Essa abordagem minimizou a dependência do modelo em relação a uma única divisão de dados.
+
+A partir de um processo exploratório, em que foram aplicados diferentes testes com modelos de \gls{cnn} e \textit{Visual Transformers}, para identificar a configuração mais adequada para a tarefa de classificação binária de doenças de pele. As arquiteturas investigadas incluíram modelos de redes neurais convolucionais (\gls{cnn}), como VGG16 e ResNet152, e arquiteturas baseadas em transformadores, como Visual Transformers (\textit{ViT}) e Swin Transformers. Após uma análise comparativa, a arquitetura \textit{Swin Transformers} foi selecionada para o modelo final.
+
+De modo a otimizar a busca por hiperparametros ideais para o objetivo proposto, foi utilizado uma técnica de \textit{Grid Search}, que consiste em testar e avaliar o desempenho de todas as combinações de parâmetros previamente fornecidos de forma automática. A Tabela \ref{tab:hiperparametros} apresenta os valores finais selecionados após a aplicação desta técnica.
+
+\begin{table}[h]
+    \centering
+    \label{tab:hiperparametros}
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{Hiperparâmetro} & \textbf{Valor} \\
+        \midrule
+        Otimizador              & SGD (\textit{Stochastic Gradient Descent}) \\
+        Taxa de aprendizado     & 0.01 \\
+        Momento (\textit{Momentum})     & 0.9 \\
+        Decaimento de peso      & 0.001 \\
+        Função de perda         & Entropia Cruzada Binária (\texttt{BCELoss}) \\
+        Tamanho do lote         & 32 \\
+        Número de épocas        & 40 \\
+        Scheduler               & \texttt{ReduceLROnPlateau} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Hiperparâmetros finais utilizados no treinamento do modelo.}
+\end{table}
+
+
+\subsection{Análise e discussao dos resultados}
+
+A avaliação do modelo incluiu análise quantitativa e qualitativa para compreender sua capacidade de tomada de decisão. Para tal, foram empregadas duas abordagens complementares: a análise de métricas de desempenho estatísticas e a interpretação visual por meio de mapas de calor.
+
+A performance do modelo foi mensurada utilizando métricas de classificação padrão para problemas binários.Conforme os resultados desses métodos, foi possível analisar se o desempenho do modelo está de acordo com o esperado. Dentre as técnicas mais comuns, foram utilizadas métricas como acurácia, definida pela fórmula 
+
+\begin{equation}
+  acurácia = \frac{VP +VN}{VP + FN + VN + FP} \; ,
+    \label{eq: acuracia}
+\end{equation}
+
+em que \(VP\) é a quantidade de verdadeiros positivos; \(VN\) é a quantidade de verdadeiros negativos; \(FN\) é a quantidade de falsos negativos e \(FP\) é a quantidade de falsos positivos. Em seguida, a métrica de precisão foi utilizada, determinada pela fórmula:
+
+\begin{equation} 
+  precisão = \frac{VP}{VP + VN} \; ,
+  \label{eq: precisao}
+\end{equation}
+
+E por último, uma métrica de avaliação chamada sensibilidade, estabelecida pela fórmula:
+
+\begin{equation}
+sensibilidade = \frac{VP}{VP + FN} \; ,
+  \label{eq: sensibilidade}
+\end{equation}
+
+Também foi empregada a **revocação** (\textit{recall}), uma métrica que mede a capacidade do modelo de encontrar todas as amostras positivas, estabelecida pela fórmula:
+
+\begin{equation}
+revocação = \frac{VP}{VP + FN}
+  \label{eq:revocacao}
+\end{equation}
+
+Por fim, o \textit{F1-Score}, que representa a média harmônica entre precisão e revocação, foi utilizado como uma métrica de equilíbrio para avaliar o modelo em cenários com classes desbalanceadas.
+
+\begin{equation}
+  F1 = 2 \cdot \frac{Precisão \cdot Revocação}{Precisão + Revocação}
+  \label{eq:f1_score}
+\end{equation}
+
+Para estabelecer os mapas de calor e promover uma compreensão visual dos resultados do modelo, a ferramenta utilizada para essa tarefa é foi o \textit{GradCam}, uma ferramenta de interpretabilidade que gera mapas de calor para qualquer camada convolucional de uma rede neural. Esses mapas destacam as regiões da imagem de entrada que mais influenciaram a decisão do modelo para uma determinada classe.
+
+Na Figura \ref{fig:gradcam}, é apresentado um exemplo de um mapa de calor gerado pelo Grad-CAM para a classe Psoríase. A análise da imagem demonstra que as regiões de maior ativação da rede (indicadas pelas cores quentes, como amarelo e vermelho) correspondem diretamente à área da lesão dermatológica. Essa observação valida o comportamento do modelo, confirmando que ele não se baseia em ruídos ou em informações de fundo, mas sim nas características morfológicas da lesão, que são clinicamente relevantes para o diagnóstico.
+
+
 % % --- Poderia ficar nos objetivos? ---
 % % Além do desenvolvimento de um modelo que seja capaz de segmentar imagens microscópicas de células com alta precisão, esse trabalho também propõe a aplicação desse modelo num sistema destinado a uso médico. 
 
