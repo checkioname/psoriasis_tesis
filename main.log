@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  10 AUG 2025 03:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.22)  10 AUG 2025 03:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1458,6 +1458,13 @@ LaTeX Warning: Reference `fig:gradcam' on page 11 undefined on input line 104.
 
 ) (./tesis/resultados.tex
 
+Package caption Warning: \label without proper reference on input line 10.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:db-table' on page 11 undefined on input line 3.
+
+
 ./tesis/resultados.tex:7: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1471,12 +1478,24 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+Package caption Warning: \label without proper reference on input line 25.
+See the caption package documentation for explanation.
 
-[11{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
+
+LaTeX Warning: Reference `tab:resultados_metricas' on page 11 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:gradcam' on page 11 undefined on input line 37.
+
+
+
+[11{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+[12]) (./tesis/conclusao.tex) (./tesis/references.tex (./main.bbl
 bibitemlist
 
 
-[12]))
+[13]))
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1484,7 +1503,7 @@ This document will not have a glossary.
 
 
 
-[13] (./main.aux)
+[14] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1495,10 +1514,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28348 strings out of 473190
- 508027 string characters out of 5715800
- 1125088 words of memory out of 5000000
- 50962 multiletter control sequences out of 15000+600000
+ 28353 strings out of 473190
+ 508091 string characters out of 5715800
+ 1126235 words of memory out of 5000000
+ 50964 multiletter control sequences out of 15000+600000
  622476 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,13n,131p,2350b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1521,10 +1540,10 @@ pdfTeX warning (dest): name{glo:pasi} has been referenced but does not exist, re
 pdfTeX warning (dest): name{glo:cad} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (15 pages, 1198478 bytes).
+Output written on main.pdf (16 pages, 1204142 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 35439 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 35447 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1754778677.47707 "main.aux" "main.bbl" "main" 1754808577.11288 2
+["bibtex main"] 1754778677.47707 "main.aux" "main.bbl" "main" 1754808911.38558 2
   "./Library.bib" 1753366519.12039 21620 c6792db07d7a99a6b4e5cdc9bfac4967 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1754808576.79104 9801 79489c8769170f3e0bf9ab87b3fc9812 "pdflatex"
+  "main.aux" 1754808911.0409 10686 1fb1c7e74025e3b96c56ebfd0d5b86b9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1754808574.99758 "main.tex" "main.pdf" "main" 1754808577.11301 2
+["pdflatex"] 1754808909.31644 "main.tex" "main.pdf" "main" 1754808911.38571 2
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -192,7 +192,7 @@
   "images/datasetexample.jpg" 1745369276.79796 73511 3d266a9cb074384e485275aeda556c82 ""
   "images/model_scheme.pdf" 1622725253 677587 19d05557aa0496d7974cce78b2bd9bb2 ""
   "images/redeconv.png" 1745369276.80088 21246 0e422a156a5e42fc307677e6e7d5949f ""
-  "main.aux" 1754808576.79104 9801 79489c8769170f3e0bf9ab87b3fc9812 "pdflatex"
+  "main.aux" 1754808911.0409 10686 1fb1c7e74025e3b96c56ebfd0d5b86b9 "pdflatex"
   "main.bbl" 1754778677.97425 4546 6b54c207bc8934211e959b683fc114d5 "bibtex main"
   "main.tex" 1753387455.99011 3699 f10c720bc68aaa497b6a6cf7a13a4af8 ""
   "tesis/abstract.tex" 1753364127.96539 2279 95623dce270cb39f18b585e387e7659e ""
@@ -202,7 +202,7 @@
   "tesis/metodologia.tex" 1754808471.89331 11534 6534cd9a78e4889e19b10c58a058cd91 ""
   "tesis/references.tex" 1745369276.80644 95 7bff0b133d8036d9a3cba2fbf37f7f06 ""
   "tesis/referencialteorico.tex" 1753387675.67212 16725 cf6843490320ea7f484f6ca781618430 ""
-  "tesis/resultados.tex" 1754808573.36426 1908 92eed15331df388e6928609e15d45475 ""
+  "tesis/resultados.tex" 1754808908.56489 3729 9d74048db9267d1999dcfa827bcc240b ""
   (generated)
   "main.acn"
   "main.aux"

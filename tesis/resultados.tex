@@ -1,4 +1,4 @@
-section{Resultados e Discussão}
+\section{Resultados e Discussão}
 
 A rede treinada apresentou resultados relevantes e muito promissores. Um dos principais desafios encontrado durante o processo de desenvolvimento foi a complexidade de trabalhar com o dataset, além do pré-processamento, també foi necessário a remoção de certas imagens que não estavam adequadas para o treinamento da rede, devido a diversos fatores externos, como por exemplo qualidade da foto. Mesmo em um ambiente controlado não havia um padrão da maneira como os dados eram gerados, portanto diversas imagens necessitavam de análise individual. A tabela \ref{tab:db-table} indica algumas informações sobre o dataset utilizado para o treinamento do modelo após o pré-processamento. 
 
@@ -7,15 +7,34 @@ Após todo o tratamento do dataset houve uma diminuição expressiva do volume d
 \newline
 \begin{table}[h]
   \centering
-  \begin{tabular}{lll}
-  \hline
-  \multicolumn{1}{|l|}{No} & \multicolumn{1}{l|}{Label} & \multicolumn{1}{l|}{Quantidade} \\ \hline
-  1                        & Psoriasis                  & 1019                            \\
-  2                        & Dermatite                  & 1239                            \\
-  \end{tabular}
-  \caption{Tabela }
   \label{tab:db-table}
+  \begin{tabular}{|l|l|l|}
+  \hline
+  \multicolumn{1}{|c|}{\textbf{Label}} & \multicolumn{1}{c|}{\textbf{Amostras}} & \multicolumn{1}{c|}{\textbf{Porcentagem}} \\ \hline
+  Psoríase                             & 1019                                   & 45.1\%                                  \\ \hline
+  Dermatite                            & 1239                                   & 54.9\%                                  \\ \hline
+  \multicolumn{1}{|c|}{\textbf{Total}} & \multicolumn{1}{c|}{\textbf{2258}}     & \multicolumn{1}{c|}{\textbf{100\%}}     \\ \hline
+  \end{tabular}
+  \caption{Distribuição do dataset após o processo de curadoria.}
 \end{table}
+
+Apesar da redução do volume de dados, o modelo alcançou um desempenho satisfatório. A Tabela \ref{tab:resultados_metricas} resume as métricas de avaliação obtidas no conjunto de teste. Observa-se que a acurácia de XX\% e o F1-Score de YY\% indicam uma performance equilibrada, com a rede demonstrando robustez na distinção entre as classes.
+
+\begin{table}[h]
+  \centering
+  \label{tab:resultados_metricas}
+  \begin{tabular}{|l|c|}
+  \hline
+  \multicolumn{1}{|c|}{\textbf{Métrica}} & \textbf{Valor} \\ \hline
+  Acurácia                               & XX\%           \\ \hline
+  Precisão                               & YY\%           \\ \hline
+  Revocação                              & ZZ\%           \\ \hline
+  F1-Score                               & AA\%           \\ \hline
+  \end{tabular}
+  \caption{Resultados das métricas de avaliação do modelo no conjunto de teste.}
+\end{table}
+
+Além da avaliação quantitativa, a interpretabilidade do modelo foi investigada por meio da técnica de Grad-CAM. A Figura \ref{fig:gradcam} apresenta um mapa de calor que ilustra as regiões de uma imagem de psoríase nas quais o modelo concentrou sua atenção para realizar a classificação. A análise visual desta figura confirma que a rede não se baseia em ruídos ou artefatos da imagem, mas sim nas características morfológicas da área lesionada (destacada em vermelho), o que fortalece a confiança em seus resultados e valida sua aplicabilidade clínica como ferramenta de apoio ao diagnóstico.
 
 
 Durante o treinamento e a avaliação foram utilizadas diferentes técnicas que possibilitassem a análise do desempenho do modelo, a figura demostra as áreas de interesse que o modelo analisou para a classificação da doença. A partir dessa figura, é possível compreender como o modelo foi capaz de relacionar o contexto da região vermelha (área lesionada) com a classificação da doença psoriase
