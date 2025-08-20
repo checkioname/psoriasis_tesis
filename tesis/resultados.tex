@@ -1,41 +1,43 @@
 \section{Resultados e Discussão}
 
-A rede treinada apresentou resultados relevantes e muito promissores. Um dos principais desafios encontrado durante o processo de desenvolvimento foi a complexidade de trabalhar com o dataset, além do pré-processamento, també foi necessário a remoção de certas imagens que não estavam adequadas para o treinamento da rede, devido a diversos fatores externos, como por exemplo qualidade da foto. Mesmo em um ambiente controlado não havia um padrão da maneira como os dados eram gerados, portanto diversas imagens necessitavam de análise individual. A tabela \ref{tab:db-table} indica algumas informações sobre o dataset utilizado para o treinamento do modelo após o pré-processamento. 
+A rede treinada apresentou resultados relevantes e muito promissores. Um dos principais desafios encontrado durante o processo de desenvolvimento foi a complexidade de trabalhar com o dataset, além do pré-processamento, também foi necessário a remoção de certas imagens que não estavam adequadas para o treinamento da rede, devido a diversos fatores externos, como por exemplo qualidade da foto. Mesmo em um ambiente controlado não havia um padrão da maneira como os dados foram gerados, portanto diversas imagens necessitavam de análise individual. A tabela \ref{tab:db-table} indica algumas informações sobre o dataset utilizado para o treinamento do modelo após o pré-processamento. 
+
 
 Após todo o tratamento do dataset houve uma diminuição expressiva do volume da base de dados, um pouco mais de 50\% de redução, esse fator também gerou outros desafios durante a fase de treinamento, como a falta de elementos representativos. A imagem abaixo é um exemplo do resultado final sendo alimentado na rede.
 
-\newline
 \begin{table}[h]
   \centering
-  \label{tab:db-table}
   \begin{tabular}{|l|l|l|}
   \hline
   \multicolumn{1}{|c|}{\textbf{Label}} & \multicolumn{1}{c|}{\textbf{Amostras}} & \multicolumn{1}{c|}{\textbf{Porcentagem}} \\ \hline
-  Psoríase                             & 1019                                   & 45.1\%                                  \\ \hline
-  Dermatite                            & 1239                                   & 54.9\%                                  \\ \hline
-  \multicolumn{1}{|c|}{\textbf{Total}} & \multicolumn{1}{c|}{\textbf{2258}}     & \multicolumn{1}{c|}{\textbf{100\%}}     \\ \hline
+  Psoríase                             & 1756                                   & 54.9\%                                  \\ \hline
+  Dermatite                            & 1071                                   & 45.1\%                                  \\ \hline
+  \multicolumn{1}{|l|}{\textbf{Total}} & \multicolumn{1}{l|}{\textbf{2258}}     & \multicolumn{1}{l|}{\textbf{100\%}}     \\ \hline
   \end{tabular}
   \caption{Distribuição do dataset após o processo de curadoria.}
+  \label{tab:db-table}
 \end{table}
 
-Apesar da redução do volume de dados, o modelo alcançou um desempenho satisfatório. A Tabela \ref{tab:resultados_metricas} resume as métricas de avaliação obtidas no conjunto de teste. Observa-se que a acurácia de 93,78\% e o F1-Score de 0.9176\% indicam uma performance equilibrada, com a rede demonstrando robustez na distinção entre as classes.
+Apesar da redução do volume de dados, o modelo alcançou um desempenho satisfatório. A Tabela \ref{tab: resultados_metricas} resume as métricas de avaliação obtidas no conjunto de teste. Observa-se que a acurácia de 93,78\% e o F1-Score de 91,76\% indicam um desempenho equilibrada, com a rede demonstrando robustez na distinção entre as classes.
 
 \begin{table}[h]
   \centering
-  \label{tab:resultados_metricas}
   \begin{tabular}{|l|c|}
   \hline
   \multicolumn{1}{|c|}{\textbf{Métrica}} & \textbf{Valor} \\ \hline
   Acurácia                               & 93,78\%           \\ \hline
-  Precisão                               & 0.9211\%           \\ \hline
-  Revocação                              & 0.9142\%           \\ \hline
-  F1-Score                               & 0.9176\%           \\ \hline
+  Precisão                               & 92,11\%           \\ \hline
+  Revocação                              & 91,42\%           \\ \hline
+  F1-Score                               & 91,76\%           \\ \hline
   \end{tabular}
   \caption{Resultados das métricas de avaliação do modelo no conjunto de teste.}
+  \label{tab: resultados_metricas}
 \end{table}
 
-Além da avaliação quantitativa, a interpretabilidade do modelo foi investigada por meio da técnica de Grad-CAM. A Figura \ref{fig:gradcam} apresenta um mapa de calor que ilustra as regiões de uma imagem de psoríase nas quais o modelo concentrou sua atenção para realizar a classificação. A análise visual desta figura confirma que a rede não se baseia em ruídos ou artefatos da imagem, mas sim nas características morfológicas da área lesionada (destacada em vermelho), o que fortalece a confiança em seus resultados e valida sua aplicabilidade clínica como ferramenta de apoio ao diagnóstico.
+Além da avaliação quantitativa, a interpretabilidade do modelo foi investigada por meio da técnica de Grad-CAM. A Figura \ref{fig:gradcam} apresenta um mapa de calor que ilustra as regiões de uma imagem de psoríase nas quais o modelo concentrou sua atenção para realizar a classificação. 
+A análise visual desta figura revela aspectos importantes sobre o comportamento de atenção do modelo. Observa-se que as regiões de maior ativação (destacadas em vermelho e amarelo) concentram-se especificamente nas bordas bem definidas da lesão psoriática, onde há uma clara demarcação entre a pele saudável e a área afetada. 
 
+O modelo demonstra sensibilidade particular às variações cromáticas características da psoríase, focalizando sua atenção nas áreas de eritema (vermelhidão) e nas regiões de descamação esbranquiçada, que são sinais clínicos distintivos desta condição dermatológica. Adicionalmente, nota-se que a rede prioriza as características morfológicas da lesão, como seu formato irregular e a textura heterogênea da superfície, aspectos fundamentais para o diagnóstico diferencial entre psoríase e outras dermatoses. Esta análise confirma que o modelo não se baseia em ruídos ou artefatos da imagem, mas sim aprende a identificar e priorizar as características visuais clinicamente relevantes, validando sua aplicabilidade como ferramenta de apoio ao diagnóstico dermatológico.
 
 Durante o treinamento e a avaliação foram utilizadas diferentes técnicas que possibilitassem a análise do desempenho do modelo, a figura demostra as áreas de interesse que o modelo analisou para a classificação da doença. A partir dessa figura, é possível compreender como o modelo foi capaz de relacionar o contexto da região vermelha (área lesionada) com a classificação da doença psoriase
 
