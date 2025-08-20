@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1754831385.50848 "main.aux" "main.bbl" "main" 1755665566.391 2
+["bibtex main"] 1754831385.50848 "main.aux" "main.bbl" "main" 1755665770.52595 2
   "./Library.bib" 1755559084.13458 21620 c6792db07d7a99a6b4e5cdc9bfac4967 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1755665566.0685 13288 12c42933aa712df2b5e29b7be9ed02b2 "pdflatex"
+  "main.aux" 1755665770.16166 13288 12c42933aa712df2b5e29b7be9ed02b2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1755665564.03529 "main.tex" "main.pdf" "main" 1755665566.39112 2
+["pdflatex"] 1755665768.07799 "main.tex" "main.pdf" "main" 1755665770.52608 2
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -198,16 +198,16 @@
   "images/pre_processamento_psoriasis_jitter.png" 1754831384.16954 256013 09afb399b54ba27011aeabf287738352 ""
   "images/redeconv.png" 1745369276.80088 21246 0e422a156a5e42fc307677e6e7d5949f ""
   "images/test1-compesos.png" 1754831384.17006 471229 6257215c4d241bebd505866b673f174f ""
-  "main.aux" 1755665566.0685 13288 12c42933aa712df2b5e29b7be9ed02b2 "pdflatex"
+  "main.aux" 1755665770.16166 13288 12c42933aa712df2b5e29b7be9ed02b2 "pdflatex"
   "main.bbl" 1754831385.61696 4546 6b54c207bc8934211e959b683fc114d5 "bibtex main"
   "main.tex" 1755657663.24136 3724 83c0d4d4b2fdd8c6b3e1178701aaec8d ""
   "tesis/abstract.tex" 1755657761.8668 10 b97f8aa9db14f2a1b6ef28d5d80589e4 ""
   "tesis/conclusao.tex" 1755604899.21651 2667 5eedd4e596640bfbf79fbd3b98cb9f01 ""
   "tesis/cover.tex" 1755657856.33032 3793 3352f3db0c66154f0d1c43475ecd187e ""
   "tesis/introduction.tex" 1755604287.0333 5659 9b8367775b91c666ae600dc4d41f8951 ""
-  "tesis/metodologia.tex" 1755665563.43391 14106 6f95196c0bd52ca0c7389f6ea5fffc0f ""
+  "tesis/metodologia.tex" 1755665767.79776 14107 b2f2c261f9d3064f381a30bc887f13a7 ""
   "tesis/references.tex" 1745369276.80644 95 7bff0b133d8036d9a3cba2fbf37f7f06 ""
-  "tesis/referencialteorico.tex" 1755559221.20543 16832 cf6df3529458eb9a999a4d5cc6bc5e1c ""
+  "tesis/referencialteorico.tex" 1755665698.60991 16833 12e4f93caa59ccdf9c98b2166ef730f1 ""
   "tesis/resultados.tex" 1755650820.34816 4556 59ef06a66c9931ab9c83907749aa09b0 ""
   (generated)
   "main.acn"
